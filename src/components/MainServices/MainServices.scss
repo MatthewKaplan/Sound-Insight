@@ -1,0 +1,59 @@
+.main-services {
+	height: 100vh;
+  width: 100%;
+  
+  a {
+    color: rgba(33, 41, 176, 0.82);
+  }
+
+	h1 {
+		font-family: "PT Sans", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 42px;
+		letter-spacing: .4px;
+		text-transform: none;
+    line-height: 1.2em;
+    margin-top: 0;
+  }
+  
+  .contact-info {
+    margin: 35px 0 70px 0;
+    font-size: 20px;
+  }
+
+	.mission {
+		font-family: "PT Sans", sans-serif;
+		font-weight: 100;
+		font-style: normal;
+		font-size: 32px;
+		letter-spacing: .2px;
+		text-transform: none;
+		line-height: 1.2em;
+    padding: 15px 95px 0px 95px;
+    margin: 0 40px 0 40px;
+	}
+
+	.services-wrapper {
+		display: grid;
+		grid-template-columns: 28% 28% 28%;
+    justify-items: center;
+    justify-content: center;
+		.service-img {
+			height: 320px;
+      width: 320px;
+      cursor: pointer;
+		}
+
+		.service-desc {
+			font-family: "PT Sans", sans-serif;
+			font-weight: 300;
+			font-style: normal;
+			font-size: 17px;
+			letter-spacing: .5px;
+			line-height: 1.6em;
+      color: #1f1f1f;
+      margin: 0 45px 0 45px;
+		}
+	}
+}
