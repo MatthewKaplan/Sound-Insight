@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import './ProductsPage.scss';
 import SplashPage from '../SplashPage/SplashPage';
 import Logo from '../Logo/Logo';
-import logos from '../../assets/helper';
+import { logos, links, manufacturers } from '../../assets/helper';
 
 class ProductsPage extends Component {
 	renderLogos = () => {
-		return logos.map(logo => {
-			return <Logo image={logo} />;
+		return manufacturers.map(manufacturer => {
+			return <Logo image={manufacturer.logo} link={manufacturer.link} />;
 		});
 	};
 
@@ -19,7 +20,7 @@ class ProductsPage extends Component {
 					subtitle="We carry top of the line brands guarenteed to excite the senses."
 					title="PRODUCTS"
 				/>
-				{this.renderLogos()}
+				<section className="logo-container">{this.renderLogos()}</section>
 			</div>
 		);
 	}
