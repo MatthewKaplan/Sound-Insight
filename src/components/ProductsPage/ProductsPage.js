@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './ProductsPage.scss';
 import SplashPage from '../SplashPage/SplashPage';
 import Logo from '../Logo/Logo';
-import { logos, links, manufacturers } from '../../assets/helper';
+import { manufacturers } from '../../assets/helper';
 
 class ProductsPage extends Component {
 	renderLogos = () => {
