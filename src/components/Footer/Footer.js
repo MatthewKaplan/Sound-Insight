@@ -5,8 +5,8 @@ class Footer extends Component {
 	render () {
 		return (
 			<div className="footer-component">
-				<div class="mapouter">
-					<div class="gmap_canvas">
+				<div className="mapouter">
+					<div className="gmap_canvas">
 						<iframe
 							width="1056"
 							height="300"
