@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './VideoPage.scss';
 
 class VideoPage extends Component {
+	componentDidMount () {
+		window.scrollTo(0, 0);
+	}
+
 	render () {
 		return (
 			<div className="video-page">
@@ -50,8 +54,8 @@ class VideoPage extends Component {
 								fit for your space.
 							</p>
 							<p>
-								We have on display some of the finest projection systems in the world by Sony, JVC, Digital Projection, and
-								Epson showcasing the finest in 4K HDR technologies.
+								We have on display some of the finest projection systems in the world by Sony, JVC, Digital Projection,
+								and Epson showcasing the finest in 4K HDR technologies.
 							</p>
 						</section>
 					</div>

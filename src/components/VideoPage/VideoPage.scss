@@ -1,6 +1,6 @@
 .video-page {
 	font-family: "PT Sans", sans-serif;
-	
+
 	.header {
 		background-color: #201a16;
 		height: 150px;
@@ -11,7 +11,7 @@
 			margin-top: 80px;
 			margin-bottom: 40px;
 		}
-		
+
 		p {
 			margin-bottom: 80px;
 		}
@@ -53,15 +53,12 @@
 			max-width: 45%;
 
 			h2 {
-				margin-top: 36.5px;
+				margin-top: 60px;
 			}
 		}
 
-		.sony-img {
-			max-width: 100%;
-		}
-
-		.projector-img {
+		img {
+			height: 300px;
 			max-width: 100%;
 		}
 	}

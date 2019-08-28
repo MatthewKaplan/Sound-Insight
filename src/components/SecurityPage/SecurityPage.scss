@@ -1,4 +1,6 @@
 .security-page {
+	font-family: "PT Sans", sans-serif;
+
 	.header {
 		background-color: #201a16;
 		height: 150px;
@@ -25,7 +27,7 @@
 
 		.security-systems {
 			text-align: left;
-			
+
 			h2 {
 				margin-top: 30px;
 			}
@@ -40,25 +42,22 @@
 
 			.smart-devices {
 				max-width: 45%;
-	
+
 				h2 {
 					margin-top: 60px;
 				}
 			}
-	
+
 			.camera-systems {
 				max-width: 45%;
-	
+
 				h2 {
 					margin-top: 60px;
 				}
 			}
-	
-			.tablet-img {
-				max-width: 100%;
-			}
-	
-			.camera-img {
+
+			img {
+				height: 325px;
 				max-width: 100%;
 			}
 		}

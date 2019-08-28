@@ -1,6 +1,69 @@
 .audio-page {
+	font-family: "PT Sans", sans-serif;
+
 	.header {
 		background-color: #201a16;
 		height: 150px;
+	}
+
+	.audio-info {
+		max-width: 75%;
+		margin: 0 auto;
+
+		.page-heading {
+			h1 {
+				margin-top: 80px;
+				margin-bottom: 40px;
+			}
+
+			p {
+				margin-bottom: 80px;
+			}
+		}
+		
+		.home-audio-img {
+			max-width: 100%;
+		}
+
+		.home-audio {
+			text-align: left;
+
+			h2 {
+				margin-top: 30px;
+			}
+		}
+
+		.bottom-services {
+			display: flex;
+			justify-content: space-between;
+			text-align: left;
+			margin-top: 80px;
+			margin-bottom: 80px;
+
+			.analog {
+				max-width: 45%;
+
+				h2 {
+					margin-top: 60px;
+				}
+			}
+
+			.digital {
+				max-width: 45%;
+
+				h2 {
+					margin-top: 60px;
+				}
+			}
+
+			img {
+				height: 360px;
+				max-width: 100%;
+			}
+
+			.analog-img {
+				width: 110%;
+			}
+		}
 	}
 }

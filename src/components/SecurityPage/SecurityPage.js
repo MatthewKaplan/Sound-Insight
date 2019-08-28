@@ -2,13 +2,17 @@ import React, { Component } from 'react';
 import './SecurityPage.scss';
 
 class SecurityPage extends Component {
+	componentDidMount () {
+		window.scrollTo(0, 0);
+	}
+
 	render () {
 		return (
 			<div className="security-page">
 				<div className="header" />
 				<div className="security-info">
 					<section className="page-heading">
-						<h1>SECURITY SYSTEMS</h1>
+						<h1>Security Systems</h1>
 						<p>
 							Security Camera and Video Surveillance Systems, also referred to as CCTV systems, DVR security, or IP
 							cameras can be a great tool to protect your company or commercial properties from theft, damaging
