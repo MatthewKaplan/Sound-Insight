@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './MainServices.scss';
+import { NavLink } from 'react-router-dom';
 
 class MainServices extends Component {
 	render () {
@@ -29,20 +30,26 @@ class MainServices extends Component {
 				</p>
 				<div className="services-wrapper">
 					<section className="service">
-						<img src={require('../../assets/images/audio.jpeg')} alt="Speakers" className="service-img" />
-						<h3>AUDIO</h3>
+						<NavLink to="/audio">
+							<img src={require('../../assets/images/audio.jpeg')} alt="Speakers" className="service-img" />
+							<h3>AUDIO</h3>
+						</NavLink>
 						<p className="service-desc">The best in both Analog and Digital Home Audio Systems</p>
 					</section>
 					<section className="service">
-						<img src={require('../../assets/images/video.jpeg')} alt="Home theater" className="service-img" />
-						<h3>VIDEO</h3>
+						<NavLink to="/video">
+							<img src={require('../../assets/images/video.jpeg')} alt="Home theater" className="service-img" />
+							<h3>VIDEO</h3>
+						</NavLink>
 						<p className="service-desc">
 							We work with all manufactures to insure the optimal video solution to fit your needs
 						</p>
 					</section>
 					<section className="service">
-						<img src={require('../../assets/images/automation.jpg')} alt="iPad" className="service-img" />
-						<h3>AUTOMATION</h3>
+						<NavLink to="/automation">
+							<img src={require('../../assets/images/automation.jpg')} alt="iPad" className="service-img" />
+							<h3>AUTOMATION</h3>
+						</NavLink>
 						<p className="service-desc">Intuitive and efficient Smart Home Solutions for any scale project</p>
 					</section>
 				</div>

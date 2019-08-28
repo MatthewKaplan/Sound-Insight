@@ -27,9 +27,21 @@ class Header extends Component {
 									PRODUCTS
 								</NavLink>
 							</li>
-							<li>GALLERY</li>
-							<li>ABOUT</li>
-							<li>CONTACT</li>
+							<li>
+								<NavLink to="/gallery" activeClassName="active" className="link">
+									GALLERY
+								</NavLink>
+							</li>
+							<li>
+								<NavLink to="/about" activeClassName="active" className="link">
+									ABOUT
+								</NavLink>
+							</li>
+							<li>
+								<NavLink to="/contact" activeClassName="active" className="link">
+									CONTACT
+								</NavLink>
+							</li>
 						</ul>
 					</nav>
 				</div>

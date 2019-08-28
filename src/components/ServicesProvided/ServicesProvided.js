@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './ServicesProvided.scss';
+import { NavLink } from 'react-router-dom';
 
 class ServicesProvided extends Component {
 	render () {
@@ -12,8 +13,10 @@ class ServicesProvided extends Component {
 				<hr className="page-break" />
 				<section className="services-info">
 					<div className="automation service">
-						<img src={require('../../assets/images/homeAutomation.jpg')} alt="Speakers" className="service-img" />
-						<h3>HOME AUTOMATION</h3>
+						<NavLink to="/automation">
+							<img src={require('../../assets/images/homeAutomation.jpg')} alt="Speakers" className="service-img" />
+							<h3>HOME AUTOMATION</h3>
+						</NavLink>
 						<p>
 							From projects small to large, new and old, we create systems with the power and performance to transform
 							your lifestyle into complete and brilliant experiences that fit your needs and are easy for your family to
@@ -23,8 +26,10 @@ class ServicesProvided extends Component {
 						</p>
 					</div>
 					<div className="video service">
-						<img src={require('../../assets/images/hometheater.jpg')} alt="Speakers" className="service-img" />
-						<h3>HOME CINIMA</h3>
+						<NavLink to="/video">
+							<img src={require('../../assets/images/hometheater.jpg')} alt="Speakers" className="service-img" />
+							<h3>HOME CINIMA</h3>
+						</NavLink>
 						<p>
 							Sound Insight can plan, design, and install a custom and dedicated home-cinema solution tailored to your
 							needs. From the initial conceptual stage to acoustical engineering, noise and vibration abatement, audio
@@ -34,8 +39,10 @@ class ServicesProvided extends Component {
 						</p>
 					</div>
 					<div className="audio service">
-						<img src={require('../../assets/images/homeaudio2.jpg')} alt="Speakers" className="service-img" />
-						<h3>HOME AUDIO</h3>
+						<NavLink to="/audio">
+							<img src={require('../../assets/images/homeaudio2.jpg')} alt="Speakers" className="service-img" />
+							<h3>HOME AUDIO</h3>
+						</NavLink>
 						<p>
 							A great audio system begins with a thoughtful and comprehensive design phase. Our design team will
 							carefully identify each of your requirements, explore all options with you, and make the appropriate
@@ -44,8 +51,10 @@ class ServicesProvided extends Component {
 						</p>
 					</div>
 					<div className="security service">
-						<img src={require('../../assets/images/securitysystems.jpg')} alt="Speakers" className="service-img" />
-						<h3>SECURITY</h3>
+						<NavLink to="/security">
+							<img src={require('../../assets/images/securitysystems.jpg')} alt="Speakers" className="service-img" />
+							<h3>SECURITY</h3>
+						</NavLink>
 						<p>
 							Sound Insight offers a turnkey solution for video surveillance and security system installation. We can
 							offer you peace of mind that your business or residence is protected 24 hours a day. Security Camera and
