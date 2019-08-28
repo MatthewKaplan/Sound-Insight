@@ -35,7 +35,7 @@
     cursor: pointer;
   }
 
-	.form-input {
+	#form-input {
 		border: 1px solid #ccc;
 		background: #fafafa;
 		width: 100%;
@@ -68,11 +68,11 @@
 		}
   }
 
-  .email-address {
+  .email {
     width: 50%;
   }
 
-  .phone-input {
+  .phone {
     width: 50%;
     margin: 0 auto;
   }

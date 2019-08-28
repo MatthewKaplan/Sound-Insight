@@ -35,7 +35,7 @@
 		cursor: pointer;
 	}
 
-	.form-input {
+	#form-input {
 		border: 1px solid #ccc;
 		background: #fafafa;
 		width: 100%;
@@ -55,7 +55,7 @@
 		align-content: left;
 	}
 
-	.date-form {
+	.dateRequested {
 		border: 1px solid #ccc;
 		background: #fafafa;
 		border-radius: 2px;
@@ -83,11 +83,15 @@
 		}
 	}
 
-	.email-address {
+	.email {
 		width: 50%;
+		border: 1px solid #ccc;
+		background: #fafafa;
+		height: 40px;
+		border-radius: 2px;
 	}
 
-	.phone-input {
+	.phone {
 		width: 50%;
 		margin: 0 auto;
 	}

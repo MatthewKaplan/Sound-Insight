@@ -36,10 +36,10 @@
     cursor: pointer;
   }
 
-	.form-input {
+	#form-input {
+		width: 100%;
 		border: 1px solid #ccc;
 		background: #fafafa;
-		width: 100%;
 		height: 40px;
 		border-radius: 2px;
 	}
@@ -56,7 +56,7 @@
 		align-content: left;
 	}
 
-	.date-form {
+	.dateRequested {
 		border: 1px solid #ccc;
 		background: #fafafa;
 		border-radius: 2px;
@@ -67,7 +67,7 @@
 		width: 50%;
 	}
 
-	.time-form {
+	.timeRequested {
 		height: 40px;
 		border: 1px solid #ccc;
 		background: #fafafa;
@@ -79,18 +79,21 @@
   select {
     text-align: center;
     text-align-last: center;
-    /* webkit*/
-  }
+	}
+	
   option {
     text-align: left;
-    /* reset to left*/
   }
 
-  .email-address {
-    width: 50%;
+  .email {
+		width: 50%;
+		border: 1px solid #ccc;
+		background: #fafafa;
+		height: 40px;
+		border-radius: 2px;
   }
 
-  .phone-input {
+  .phone {
     width: 50%;
     margin: 0 auto;
   }
