@@ -56,6 +56,10 @@ nav ul li {
 	transform: translateX(100rem);
 	animation: slideIn .5s forwards;
 	color: #fff;
+	// cursor: pointer;
+}
+
+.link {
 	cursor: pointer;
 }
 
@@ -92,7 +96,10 @@ nav ul li:nth-child(6) {
 
 	&:hover {
     background-color: #fff;
-    color: black;
+		
+		.contact-link {
+			color: black;
+		}
 	}
 
 	&::before,

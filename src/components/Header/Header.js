@@ -13,7 +13,7 @@ class Header extends Component {
 						</Link>
 						<ul>
 							<li>
-								<NavLink to="/" activeClassName="active" className="link">
+								<NavLink exact to="/" activeClassName="active" className="link">
 									HOME
 								</NavLink>
 							</li>
@@ -38,7 +38,7 @@ class Header extends Component {
 								</NavLink>
 							</li>
 							<li>
-								<NavLink to="/contact" activeClassName="active" className="link">
+								<NavLink to="/contact" activeClassName="active" className="link contact-link">
 									CONTACT
 								</NavLink>
 							</li>
