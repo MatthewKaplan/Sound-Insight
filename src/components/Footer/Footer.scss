@@ -1,34 +1,35 @@
 .footer-component {
 	background-color: #201a16;
 	min-height: 500px;
-}
-
-.footer-info {
-	display: flex;
-}
-
-.mapouter {
-	position: relative;
-	text-align: right;
-	height: 350px;
-	width: 650px;
-	margin: 0 auto;
-	padding-top: 100px;
-}
-.gmap_canvas {
-	overflow: hidden;
-	background: none !important;
-	height: 350px;
-	width: 650px;
-}
-
-.store-info {
-	width: 35%;
-	padding-top: 100px;
-	color: white;
 	font-family: "PT Sans", sans-serif;
-}
 
-a {
-	color: rgba(33, 41, 176, 0.82);
+	.footer-info {
+		display: flex;
+	}
+
+	.mapouter {
+		position: relative;
+		text-align: right;
+		height: 350px;
+		width: 650px;
+		margin: 0 auto;
+		padding-top: 100px;
+	}
+	.gmap_canvas {
+		overflow: hidden;
+		background: none !important;
+		height: 350px;
+		width: 650px;
+	}
+
+	.store-info {
+		width: 35%;
+		padding-top: 100px;
+		color: white;
+		font-family: "PT Sans", sans-serif;
+	}
+
+	a {
+		color: rgba(33, 41, 176, 0.82);
+	}
 }

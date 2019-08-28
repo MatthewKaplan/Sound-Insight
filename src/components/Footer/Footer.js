@@ -22,20 +22,18 @@ class Footer extends Component {
 					</section>
 					<section className="store-info">
 						<h3>
-							<strong>ADDRESS:</strong>
-						</h3>
-						<h3>382 New York Ave</h3>
-						<h3>Huntington, NY 11743</h3>
-						<h3>
 							<a target="_blank" href="tel:6312714434" rel="noopener noreferrer">
 								631.271.4434
 							</a>
 						</h3>
-						<br />
 						<h3>
 							<a href="mailto:sales@sound-insight.com">sales@sound-insight.com</a>
 						</h3>
-
+						<h3>
+							<strong>ADDRESS:</strong>
+						</h3>
+						<h3>382 New York Ave</h3>
+						<h3>Huntington, NY 11743</h3>
 						<h3>
 							<strong>Showroom Hours:</strong>
 						</h3>
