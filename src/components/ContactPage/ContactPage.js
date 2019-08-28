@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
 import SplashPage from '../SplashPage/SplashPage';
+import DemoRequest from '../DemoRequest/DemoRequest';
+import SurveyRequest from '../SurveyRequest/SurveyRequest';
+import ContactForm from '../ContactForm/ContactForm';
 import './ContactPage.scss';
 
 class ContactPage extends Component {
+	state = { demoRequest: false, estimateRequest: false, contactUs: false };
+
+	closeForms = () => {
+		this.setState({
+			demoRequest: false,
+			estimateRequest: false,
+			contactUs: false
+		});
+	};
+
 	render () {
+		const { demoRequest, estimateRequest, contactUs } = this.state;
+
 		return (
 			<div className="contact-page">
 				<SplashPage image="store.jpeg" altText="Sound Insight store front" subtitle="" title="We're here for you!" />
@@ -12,9 +27,24 @@ class ContactPage extends Component {
 					<hr className="page-break" />
 				</div>
 				<div className="button-container">
-					<input type="submit" value="REQUEST A DEMO" className="contact-btn" />
-					<input type="submit" value="REQUEST A SURVEY" className="contact-btn" />
-					<input type="submit" value="CONTACT US" className="contact-btn" />
+					<input
+						type="submit"
+						value="REQUEST A DEMO"
+						className="contact-btn"
+						onClick={() => this.setState({ demoRequest: true })}
+					/>
+					<input
+						type="submit"
+						value="REQUEST A FREE ESTIMATE"
+						className="contact-btn"
+						onClick={() => this.setState({ estimateRequest: true })}
+					/>
+					<input
+						type="submit"
+						value="CONTACT US"
+						className="contact-btn"
+						onClick={() => this.setState({ contactUs: true })}
+					/>
 				</div>
 				<div className="break-line">
 					<hr className="page-break" />
@@ -49,6 +79,9 @@ class ContactPage extends Component {
 						<a href="mailto:sales@sound-insight.com">sales@sound-insight.com</a>
 					</h3>
 				</div>
+				{demoRequest === true && <DemoRequest closeForm={this.closeForms} />}
+				{estimateRequest === true && <SurveyRequest closeForm={this.closeForms} />}
+				{contactUs === true && <ContactForm closeForm={this.closeForms} />}
 			</div>
 		);
 	}
