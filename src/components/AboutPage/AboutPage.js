@@ -3,6 +3,10 @@ import SplashPage from '../SplashPage/SplashPage';
 import './AboutPage.scss';
 
 class AboutPage extends Component {
+	componentDidMount () {
+		window.scrollTo(0, 0);
+	}
+	
 	render () {
 		return (
 			<div className="about-page">

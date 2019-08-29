@@ -3,6 +3,10 @@ import SplashPage from '../SplashPage/SplashPage';
 import ServicesProvided from '../ServicesProvided/ServicesProvided';
 
 class ServicesPage extends Component {
+	componentDidMount () {
+		window.scrollTo(0, 0);
+	}
+	
 	render () {
 		return (
 			<div>

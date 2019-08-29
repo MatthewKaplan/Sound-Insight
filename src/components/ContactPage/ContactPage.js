@@ -8,6 +8,10 @@ import './ContactPage.scss';
 class ContactPage extends Component {
 	state = { demoRequest: false, estimateRequest: false, contactUs: false };
 
+	componentDidMount () {
+		window.scrollTo(0, 0);
+	}
+	
 	closeForms = () => {
 		this.setState({
 			demoRequest: false,
