@@ -1,0 +1,88 @@
+.slider {
+  position: relative;
+  width: 675px;
+  margin: 40px auto 0 auto;
+  height: 275px;
+  white-space: nowrap;
+
+  .slider-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .slide {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.align-arrows {
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  width: auto;
+  justify-content: center;
+
+  .hobby {
+    font-family: "PT Sans", sans-serif;
+    position: absolute;
+    margin: 45px 0 0 0;
+    width: 100%;
+    color: black;
+  }
+
+  .arrow {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform ease-in 0.1s;
+  }
+
+  .arrowBack {
+    z-index: 999;
+    margin: 40px 350px 0 0;
+    transform: rotate(180deg);
+    background-image: url("https://i.imgur.com/IXg0ric.png");
+    background-size: contain;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+
+  .arrowNext {
+    z-index: 999;
+    margin: 40px 0 0 350px;
+    background-image: url("https://i.imgur.com/ZD0PRbt.png");
+    background-size: contain;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .align-arrows .arrowNext {
+    right: 200px;
+  }
+
+  .align-arrows .arrowBack {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .align-arrows .arrowNext {
+    right: 50px;
+  }
+
+  .align-arrows .arrowBack {
+    left: 50px;
+  }
+}
