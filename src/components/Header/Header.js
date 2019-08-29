@@ -62,7 +62,9 @@ class Header extends Component {
 							<div className={sidebarActive ? 'iconActive icon' : 'icon'} onClick={() => this.toggleSidebar()}>
 								<div className="hamburger" />
 							</div>
-							<img src={require('../../assets/images/small-logo.png')} alt="company logo" className="header-logo" />
+							<Link to="/" className="link logo-link">
+								<img src={require('../../assets/images/small-logo.png')} alt="company logo" className="header-logo" />
+							</Link>
 						</section>
 						<section className="side-nav">
 							<ul className="sidebar-menu">
