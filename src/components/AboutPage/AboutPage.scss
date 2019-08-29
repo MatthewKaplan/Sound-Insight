@@ -40,3 +40,27 @@
 		margin-bottom: 60px;
 	}
 }
+
+@media screen and (max-width: 415px) {
+	.about-page .about-info {
+		margin: -140px auto 30px auto;
+		max-width: 95%;
+	}
+
+	.about-page .about-img {
+		width: 100%;
+		height: 225px;
+	}
+
+	.about-page .about1-img,
+	.about-page .about2-img,
+	.about-page .about3-img {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.about-page .about-section {
+		height: auto;
+		margin-bottom: 30px;
+	}
+}

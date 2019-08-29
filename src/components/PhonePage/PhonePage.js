@@ -31,7 +31,7 @@ class PhonePage extends Component {
 						</p>
 					</section>
 					<div className="bottom-services">
-						<section className="camera-systems">
+						<section className="desktop-phones">
 							<img src="https://i.imgur.com/rO1vQaz.jpg" alt="camera security system" className="camera-img" />
 							<h2>DESKTOP PHONES</h2>
 							<p>
@@ -42,9 +42,9 @@ class PhonePage extends Component {
 								communication needs, including access to desktop and mobile functionality.
 							</p>
 						</section>
-						<section className="smart-devices">
+						<section className="wireless-phones">
 							<img src="https://i.imgur.com/lfHNrM3.png" alt="tablet security" className="tablet-img" />
-							<h2>SMART DEVICES/CONTROLLERS</h2>
+							<h2>WIRELESS PHONES</h2>
 							<p>
 								With our mobile handsets and on-site phones employees no longer need to remain at their desk to respond
 								to requests and to get their work done. Regarding of where they are on-site employees have total control

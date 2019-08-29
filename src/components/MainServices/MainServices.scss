@@ -1,12 +1,12 @@
 .main-services {
 	margin: -275px 0 60px 0;
+	font-family: "PT Sans", sans-serif;
 
 	a {
 		color: rgba(33, 41, 176, 0.82);
 	}
 
 	h1 {
-		font-family: "PT Sans", sans-serif;
 		font-weight: 100;
 		font-style: normal;
 		font-size: 42px;
@@ -22,7 +22,6 @@
 	}
 
 	.mission {
-		font-family: "PT Sans", sans-serif;
 		font-weight: 100;
 		font-style: normal;
 		font-size: 32px;
@@ -45,7 +44,6 @@
 		}
 
 		.service-desc {
-			font-family: "PT Sans", sans-serif;
 			font-weight: 300;
 			font-style: normal;
 			font-size: 17px;
@@ -91,7 +89,6 @@
 			text-rendering: optimizeLegibility;
 
 			p {
-				font-family: 'PT Sans', sans-serif;
 				font-weight: 100;
 				font-style: normal;
 				font-size: 28px;
@@ -104,7 +101,6 @@
 			}
 
 			strong {
-				font-family: 'PT Sans', sans-serif;
 				font-weight: 100;
 				font-style: normal;
 				font-size: 86px;
@@ -117,7 +113,6 @@
 	}
 
 	.store-info {
-		font-family: "PT Sans", sans-serif;
 		width: 80%;
 		margin: 60px auto;
 
@@ -149,5 +144,72 @@
 		margin-top: 60px;
 		width: 100%;
 		height: 700px;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.main-services {
+		margin: -220px 0 60px 0;
+	}
+
+	.main-services h1 {
+		font-size: 32px;
+	}
+
+	.main-services .mission {
+		font-size: 16px;
+		margin: 0 10px 0 10px;
+		padding: 15px 45px 0px 45px;
+	}
+
+	.main-services .contact-info {
+		margin: 35px 7px 70px 7px;
+	}
+
+	.main-services .services-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main-services .services-wrapper .service {
+		margin-bottom: 40px;
+	}
+
+	.main-services .services-wrapper .service-img {
+		width: 90%;
+	}
+
+	.main-services .services-wrapper .service-desc {
+		margin: 0 25px 0 25px;
+	}
+
+	.main-services .store-image .splash-desc strong {
+		font-size: 50px;
+	}
+
+	.main-services .store-image .splash-desc p {
+		font-size: 22px;
+	}
+
+	.main-services .store-info .top-images {
+		flex-direction: column;
+	}
+
+	.main-services .store-info {
+		width: 90%;
+	}
+
+	.main-services .store-info .store1,
+	.main-services .store-info .store2 {
+		width: 100%;
+		height: 350px;
+	}
+
+	.main-services .store-info .store2 {
+		margin-bottom: 45px;
+	}
+
+	.main-services .store3 {
+		height: 350px;
 	}
 }

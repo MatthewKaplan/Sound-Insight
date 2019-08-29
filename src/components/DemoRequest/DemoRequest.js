@@ -70,7 +70,7 @@ class DemoRequest extends Component {
 					<div className="requested-date">
 						<h3>Date Requested*</h3>
 						<div className="date-input">
-							<input type="date" id="start" name="dateRequested" min="2019-09-01" max="2022-12-31" className="dateRequested" value={dateRequested} onChange={this.inputHandler}/>
+							<input type="date" id="start" name="dateRequested" min="2019-09-01" max="2022-12-31" className="dateRequested" value={dateRequested} onChange={this.inputHandler} width='100' required="required"/>
 						</div>
 					</div>
 					<div className="requested-time">

@@ -52,7 +52,7 @@ class ContactPage extends Component {
 					</div>
 					<div className="store-info">
 						<section className="store-address">
-							<section className="adress">
+							<section className="address">
 								<h3>
 									<strong>ADDRESS:</strong>
 								</h3>
@@ -71,12 +71,12 @@ class ContactPage extends Component {
 								</h3>
 							</section>
 						</section>
-						<h3>
+						<h3 className="phone-number">
 							<a target="_blank" href="tel:6312714434" rel="noopener noreferrer">
 								631.271.4434
 							</a>
 						</h3>
-						<h3>
+						<h3 className="email">
 							<a href="mailto:sales@sound-insight.com">sales@sound-insight.com</a>
 						</h3>
 					</div>
