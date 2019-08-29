@@ -62,7 +62,6 @@ class ContactForm extends Component {
 								type="text"
 								name="email"
 								className="email"
-								id="form-input"
 								required
 								value={email}
 								onChange={this.inputHandler}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './MainServices.scss';
 import { NavLink } from 'react-router-dom';
+import SplashPage from '../SplashPage/SplashPage';
 
 class MainServices extends Component {
 	render () {
@@ -53,6 +54,32 @@ class MainServices extends Component {
 						<p className="service-desc">Intuitive and efficient Smart Home Solutions for any scale project</p>
 					</section>
 				</div>
+				<section className="store-image">
+					<div className="image-overlay" />
+					<img
+						src={require('../../assets/images/store-front.jpg')}
+						alt="Sound Insight store front"
+						className="store-front-img"
+					/>
+					<div className="splash-desc">
+						<p>
+							<strong>Our Showroom</strong>
+						</p>
+						<p>Huntington, NY</p>
+					</div>
+				</section>
+				<section className="store-info">
+					<h1>Explore what is possible.</h1>
+					<h3>
+						Our showroom was built so that you can explore what is possible in Home Entertainment Technologies. We have
+						dedicated Stereo and Home Cinema rooms, with an assortment of the newest technologies.
+					</h3>
+					<div className="top-images">
+						<img src="https://i.imgur.com/HJ6gi3W.jpg" alt="inside store" className="store2" />
+						<img src="https://i.imgur.com/p3UDEkt.jpg" alt="inside store" className="store1" />
+					</div>
+					<img src="https://i.imgur.com/RWhoCBA.jpg" alt="inside store" className="store3" />
+				</section>
 			</div>
 		);
 	}
