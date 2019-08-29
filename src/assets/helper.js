@@ -295,8 +295,24 @@ const manufacturers = [
 	}
 ];
 
+const videoImages = [
+	'https://i.imgur.com/YZytWgN.jpg',
+	'https://i.imgur.com/LYGJtfA.jpg',
+	'https://i.imgur.com/7r53WmY.jpg',
+	'https://i.imgur.com/6LLjWOX.jpg'
+]
+
+const videoDetails = [
+	'85" Sony XBR85X950G',
+	'75" Sony XBR75X850G',
+	'65" Sony XBR-65A8G',
+	'55" Sony XBR55X900F'
+]
+
 module.exports = {
 	logos,
 	links,
-	manufacturers
+	manufacturers,
+	videoImages,
+	videoDetails
 };
