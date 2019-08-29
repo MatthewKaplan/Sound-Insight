@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './VideoPage.scss';
+import Slides from '../Slides/Slides';
+import { videoImages, videoDetails } from '../../assets/helper';
 
 class VideoPage extends Component {
 	componentDidMount () {
@@ -58,6 +60,16 @@ class VideoPage extends Component {
 								and Epson showcasing the finest in 4K HDR technologies.
 							</p>
 						</section>
+					</div>
+				</section>
+				<h1>Some of the Products on Display</h1>
+				<section className="product-slides">
+					<div className="top-break-line">
+						<hr className="top-page-break" />
+					</div>
+					<Slides icons={videoImages} iconNames={videoDetails} />
+					<div className="bottom-break-line">
+						<hr className="bottom-page-break" />
 					</div>
 				</section>
 			</div>
