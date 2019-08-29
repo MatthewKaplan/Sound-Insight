@@ -5,6 +5,10 @@ import Logo from '../Logo/Logo';
 import { manufacturers } from '../../assets/helper';
 
 class ProductsPage extends Component {
+	componentDidMount () {
+		window.scrollTo(0, 0);
+	}
+	
 	renderLogos = () => {
 		return manufacturers.map(manufacturer => {
 			return <Logo image={manufacturer.logo} link={manufacturer.link} />;
