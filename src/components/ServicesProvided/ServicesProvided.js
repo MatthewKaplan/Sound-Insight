@@ -11,6 +11,20 @@ class ServicesProvided extends Component {
 					<h2 className="subtitle">Provide our customers with the best Audio, Video, and Customer Experience.</h2>
 				</section>
 				<hr className="page-break" />
+				<section className="top-service">
+					<div className="audio-service">
+						<NavLink to="/audio">
+							<img src={require('../../assets/images/homeaudio2.jpg')} alt="Speakers" className="top-service-img" />
+							<h3>HOME AUDIO</h3>
+						</NavLink>
+						<p>
+							A great audio system begins with a thoughtful and comprehensive design phase. Our design team will
+							carefully identify each of your requirements, explore all options with you, and make the appropriate
+							recommendations. Our team is also available to coordinate our work with your builder, general contractors,
+							interior designer, or landscape architect.
+						</p>
+					</div>
+				</section>
 				<section className="services-info">
 					<div className="automation service">
 						<NavLink to="/automation">
@@ -38,16 +52,21 @@ class ServicesProvided extends Component {
 							through the process.
 						</p>
 					</div>
-					<div className="audio service">
-						<NavLink to="/audio">
-							<img src={require('../../assets/images/homeaudio2.jpg')} alt="Speakers" className="service-img" />
-							<h3>HOME AUDIO</h3>
+					<div className="phone service">
+						<NavLink to="/phone-systems">
+							<img
+								src={require('../../assets/images/phone-system.png')}
+								alt="Man making phonecall"
+								className="service-img"
+							/>
+							<h3>PHONE SYSTEMS</h3>
 						</NavLink>
 						<p>
-							A great audio system begins with a thoughtful and comprehensive design phase. Our design team will
-							carefully identify each of your requirements, explore all options with you, and make the appropriate
-							recommendations. Our team is also available to coordinate our work with your builder, general contractors,
-							interior designer, or landscape architect.
+							Sound Insight offers a one-stop solution for your business and residential communication needs. Our
+							knowledgeable and friendly staff has the experience and expertise to work with you to design, install, and
+							maintain a phone system that will best meet your needs, from basic digital systems to modern VoIP systems.
+							We offer sales, installation and maintenance of both large and small phone systems with the same friendly
+							and expert care.
 						</p>
 					</div>
 					<div className="security service">

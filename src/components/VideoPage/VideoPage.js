@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './VideoPage.scss';
 import Slides from '../Slides/Slides';
-import { videoImages, videoDetails } from '../../assets/helper';
+import { videoImages, videoDetails, videoLinks } from '../../assets/helper';
 
 class VideoPage extends Component {
 	componentDidMount () {
@@ -67,7 +67,7 @@ class VideoPage extends Component {
 					<div className="top-break-line">
 						<hr className="top-page-break" />
 					</div>
-					<Slides icons={videoImages} iconNames={videoDetails} />
+					<Slides icons={videoImages} iconNames={videoDetails} links={videoLinks} />
 					<div className="bottom-break-line">
 						<hr className="bottom-page-break" />
 					</div>
