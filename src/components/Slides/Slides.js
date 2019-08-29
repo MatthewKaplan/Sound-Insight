@@ -5,6 +5,7 @@ class Slides extends Component {
 	state = {
 		icons: [],
 		iconNames: [],
+		productLinks: [],
 		currentIndex: 0,
 		translateValue: 0,
 		autoSlides: () => {}
@@ -15,6 +16,7 @@ class Slides extends Component {
 		this.setState({
 			icons: this.props.icons,
 			iconNames: this.props.iconNames,
+			productLinks: this.props.links,
 			autoSlides
 		});
 	}
@@ -54,7 +56,8 @@ class Slides extends Component {
 	};
 
 	render () {
-		const { iconNames, currentIndex } = this.state;
+		const { iconNames, currentIndex, productLinks } = this.state;
+		console.log(this.state.productLinks);
 		return (
 			<React.Fragment>
 				<div className="slider">
@@ -68,7 +71,11 @@ class Slides extends Component {
 					</div>
 				</div>
 				<div className="align-arrows">
-					<h1 className="hobby">{iconNames[currentIndex]}</h1>
+					<h1 className="hobby">
+						<a href={productLinks[currentIndex]} target="_blank" rel="noopener noreferrer">
+							{iconNames[currentIndex]}
+						</a>
+					</h1>
 					<div className="arrowBack arrow" onClick={() => this.goToPrevSlide()} />
 					<div className="arrowNext arrow" onClick={() => this.goToNextSlide()} />
 				</div>
@@ -83,7 +90,8 @@ class Slides extends Component {
 const Slide = ({ image }) => {
 	const styles = {
 		backgroundImage: `url(${image})`,
-		backgroundSize: '300px 300px',
+		// backgroundSize: '500px 300px',
+		backgroundSize: 'contain',
 		backgroundRepeat: 'no-repeat',
 		backgroundPosition: '50% 60%'
 	};

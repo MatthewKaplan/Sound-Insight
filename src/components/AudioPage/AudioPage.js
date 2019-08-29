@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { audioDetails, audioImages, audioLinks } from '../../assets/helper';
+import Slides from '../Slides/Slides';
 import './AudioPage.scss';
 
 class AudioPage extends Component {
@@ -60,6 +62,16 @@ class AudioPage extends Component {
 						</section>
 					</div>
 				</div>
+				<h1>Some of the Products on Display</h1>
+				<section className="product-slides">
+					<div className="top-break-line">
+						<hr className="top-page-break" />
+					</div>
+					<Slides icons={audioImages} iconNames={audioDetails} links={audioLinks} />
+					<div className="bottom-break-line">
+						<hr className="bottom-page-break" />
+					</div>
+				</section>
 			</div>
 		);
 	}
