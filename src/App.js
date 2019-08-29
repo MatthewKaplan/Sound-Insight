@@ -13,6 +13,7 @@ import SecurityPage from './components/SecurityPage/SecurityPage';
 import AboutPage from './components/AboutPage/AboutPage';
 import ContactPage from './components/ContactPage/ContactPage';
 import GalleryPage from './components/GalleryPage/GalleryPage';
+import PhonePage from './components/PhonePage/PhonePage';
 
 function App (){
 	return (
@@ -29,6 +30,7 @@ function App (){
 				<Route path="/about" component={AboutPage} />
 				<Route path="/contact" component={ContactPage} />
 				<Route path="/gallery" component={GalleryPage} />
+				<Route path="/phone-systems" component={PhonePage} />
 			</Switch>
 			<Footer />
 		</div>

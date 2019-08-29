@@ -1,9 +1,9 @@
 .services-provided {
   height: auto;
   margin: -280px 0 60px 0;
+  font-family: "PT Sans", sans-serif;
   
 	.header {
-		// border: 3px solid red;
 		width: 65%;
 		margin: 0 auto;
 		.title {
@@ -31,6 +31,21 @@
 		border: 0;
 		height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+  .audio-service {
+    max-width: 80%;
+    margin: 80px auto 0 auto;
+    text-align: left;
+  }
+
+  .top-service-img {
+    height: 550px;
+    width: 100%;
+  }
+
+  h3 {
+    margin-top: 30px; 
   }
   
   .services-info {
@@ -60,5 +75,57 @@
       height: 400px;
       width: 500px;
     }
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .services-provided {
+    margin: -265px 0 20px 0;
+  }
+
+  .services-provided .header {
+    width: 95%;
+  }
+
+  .services-provided .header .title {
+    font-size: 32px;
+  }
+
+  .services-provided .header .subtitle {
+    font-size: 22px;
+  }
+
+  .services-provided .top-service {
+    margin-bottom: 80px;
+  }
+
+  .services-provided .top-service .top-service-img {
+    height: 350px;
+  }
+
+  .services-provided .top-service .audio-service {
+    max-width: 90%;
+  }
+
+  .services-provided .services-info {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .services-provided .services-info h3,
+  .services-provided .services-info p {
+    width: 100%;
+  }
+
+  .services-provided .services-info .service-img {
+    height: 350px;
+    width: 100%;
+  }
+
+  .services-provided .services-info .automation,
+  .services-provided .services-info .video {
+    margin-top: 0px;
   }
 }

@@ -70,10 +70,10 @@ class MainServices extends Component {
 				</section>
 				<section className="store-info">
 					<h1>Explore what is possible.</h1>
-					<h3>
+					<p>
 						Our showroom was built so that you can explore what is possible in Home Entertainment Technologies. We have
 						dedicated Stereo and Home Cinema rooms, with an assortment of the newest technologies.
-					</h3>
+					</p>
 					<div className="top-images">
 						<img src="https://i.imgur.com/HJ6gi3W.jpg" alt="inside store" className="store2" />
 						<img src="https://i.imgur.com/p3UDEkt.jpg" alt="inside store" className="store1" />

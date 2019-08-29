@@ -295,8 +295,122 @@ const manufacturers = [
 	}
 ];
 
+const videoImages = [
+	'https://i.imgur.com/YZytWgN.jpg',
+	'https://i.imgur.com/LYGJtfA.jpg',
+	'https://i.imgur.com/7r53WmY.jpg',
+	'https://i.imgur.com/6LLjWOX.jpg'
+]
+
+const videoDetails = [
+	'85" Sony XBR85X950G',
+	'75" Sony XBR75X850G',
+	'65" Sony XBR-65A8G',
+	'55" Sony XBR55X900F'
+]
+
+const videoLinks = [
+	'https://www.sony.com/electronics/televisions/xbr-x950g-x955g-x957g-series/buy/xbr85x950g',
+	'https://www.sony.com/electronics/televisions/xbr-x950g-x955g-x957g-series/buy/xbr75x950g',
+	'https://www.sony.com/electronics/televisions/xbr-a8g-series/buy/xbr65a8g',
+	'https://www.sony.com/electronics/televisions/xbr-x900f-series/buy/xbr55x900f'
+]
+
+const audioImages = [
+	'https://i.imgur.com/NEEbJkJ.jpg',
+	'https://i.imgur.com/eqwnGYi.jpg',
+	'https://i.imgur.com/4Zqujjy.jpg',
+	'https://i.imgur.com/Aj3rdHX.jpg',
+	'https://i.imgur.com/tfrsDaM.jpg',
+	'https://i.imgur.com/HXQ4Txs.jpg',
+	'https://i.imgur.com/6f2qQGD.jpg',
+	'https://i.imgur.com/SxwSPde.jpg',
+	'https://i.imgur.com/CN2EfLI.png',
+	'https://i.imgur.com/mET4Iy4.png',
+	'https://i.imgur.com/N5bTvlA.png',
+	'https://i.imgur.com/J7qzZhA.png',
+	'https://i.imgur.com/FLcw6dT.png',
+	'https://i.imgur.com/mZ6CZfu.png',
+	'https://i.imgur.com/9UXLzHj.png',
+	'https://i.imgur.com/LkR0BdC.png',
+	'https://i.imgur.com/gn5F5gQ.png',
+	'https://i.imgur.com/yAw6qDR.jpg',
+	'https://i.imgur.com/0VzDWlJ.jpg',
+	'https://i.imgur.com/BknygcA.jpg',
+	'https://i.imgur.com/2Y9VUWw.jpg',
+	'https://i.imgur.com/xlE1G2k.jpg',
+	'https://i.imgur.com/UuOHU77.jpg',
+	'https://i.imgur.com/n61FUWV.jpg',
+	'https://i.imgur.com/4TujdVn.png',
+	'https://i.imgur.com/VCjdMoz.jpg'
+]
+
+const audioDetails = [
+	'Anthem MRX 720',
+	'Integra DRX 3.3',
+	'Marantz SR5014',
+	'Marantz PM6006',
+	'Parasound HINT 6',
+	'Sony STR-ZA1100ES',
+	'Bluesound Node2i',
+	'Bluesound PowerNode',
+	'Sonos Amp',
+	'Sonos Beam',
+	'Sonos Connect',
+	'Sonos One',
+	'Sonos Play1',
+	'Sonos Playbase',
+	'Sonos Play5',
+	'Sonos Playbar',
+	'Sonos Sub',
+	'Heos 1',
+	'Heos 3',
+	'Heos 5',
+	'Heos 7',
+	'Heos Bar',
+	'Heos Subwoofer',
+	'Heos Link',
+	'Heos Drive',
+	'KEF LS 50W'
+]
+
+const audioLinks = [
+	'https://www.anthemav.com/products-current/series=mrx-series-gen3/model=mrx-720/page=overview',
+	'http://www.integrahometheater.com/Products/model.php?m=DRX-3.3&class=Receiver&source=prodClass',
+	'https://www.us.marantz.com/us/Products/Pages/ProductDetails.aspx?CatId=avreceivers&ProductId=SR5014',
+	'https://www.us.marantz.com/us/products/pages/ProductDetails.aspx?CatId=hificomponents&ProductId=PM6006',
+	'https://www.parasound.com/hint6.php',
+	'https://www.sony.com/electronics/av-receivers/str-za1100es',
+	'https://www.bluesound.com/products/node-2i/',
+	'https://www.bluesound.com/products/powernode-2i/',
+	'https://www.sonos.com/en-us/shop/amp.html',
+	'https://www.sonos.com/en-us/shop/beam.html',
+	'https://www.sonos.com/en-us/shop/connect.html',
+	'https://www.sonos.com/en-us/shop/one.html',
+	'https://www.sonos.com/en-us/shop/play1.html',
+	'https://www.sonos.com/en-us/shop/playbase.html',
+	'https://www.sonos.com/en-us/shop/play5.html',
+	'https://www.sonos.com/en-us/shop/playbar.html',
+	'https://www.sonos.com/en-us/shop/sub.html',
+	'https://usa.denon.com/us/heos-1-portable-wireless-speaker',
+	'https://usa.denon.com/us/heos-3-small-powered-speakers',
+	'https://usa.denon.com/us/heos-5-medium-sized-speakers',
+	'https://usa.denon.com/us/heos-7-large-home-speaker-system',
+	'https://usa.denon.com/us/heos/heos-soundbar',
+	'https://usa.denon.com/us/heos/heos-subwoofer',
+	'https://usa.denon.com/us/heos-link',
+	'https://usa.denon.com/us/heos-drive',
+	'https://www.shop.us.kef.com/speaker/flagship-hi-fi-speakers/ls50/ls50wireless-powered-music-system.html'
+]
+
 module.exports = {
 	logos,
 	links,
-	manufacturers
+	manufacturers,
+	videoImages,
+	videoDetails,
+	audioDetails,
+	audioImages,
+	videoLinks,
+	audioLinks
 };

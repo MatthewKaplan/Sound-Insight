@@ -26,23 +26,29 @@ class Footer extends Component {
 								631.271.4434
 							</a>
 						</h3>
-						<h3>
+						<h3 className="email">
 							<a href="mailto:sales@sound-insight.com">sales@sound-insight.com</a>
 						</h3>
-						<h3>
-							<strong>ADDRESS:</strong>
-						</h3>
-						<h3>382 New York Ave</h3>
-						<h3>Huntington, NY 11743</h3>
-						<h3>
-							<strong>Showroom Hours:</strong>
-						</h3>
-						<h3>
-							<strong>MON - SAT:</strong> 10:00 AM - 6:00 PM
-						</h3>
-						<h3>
-							<strong>SUN:</strong> By Appointment Only
-						</h3>
+						<section className="store-information">
+							<section className="store-address">
+								<h3>
+									<strong>ADDRESS:</strong>
+								</h3>
+								<h3>382 New York Ave</h3>
+								<h3>Huntington, NY 11743</h3>
+							</section>
+							<section className="store-hours">
+								<h3>
+									<strong>Showroom Hours:</strong>
+								</h3>
+								<h3>
+									<strong>MON - SAT:</strong> 10:00 AM - 6:00 PM
+								</h3>
+								<h3>
+									<strong>SUN:</strong> By Appointment Only
+								</h3>
+							</section>
+						</section>
 					</section>
 				</div>
 			</div>
