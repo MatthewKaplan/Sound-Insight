@@ -1,0 +1,97 @@
+.contact-form {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: rgba(0,0,0, 0.5);
+	z-index: 999;
+
+	.form-information {
+		background-color: white;
+		border: 1px solid black;
+		max-width: 50%;
+		max-height: 80%;
+		margin: 0 auto;
+		margin-top: 50px;
+		padding: 30px;
+		font-family: "PT Sans", sans-serif;
+		overflow: scroll;
+		z-index: 999;
+	}
+
+  h1,
+  h3 {
+    text-align: left;
+  }
+
+  .close-form {
+    height: 30px;
+    width: 30px;
+    float: right;
+    cursor: pointer;
+  }
+
+	#form-input {
+		border: 1px solid #ccc;
+		background: #fafafa;
+		width: 100%;
+		height: 40px;
+		border-radius: 2px;
+	}
+
+  textarea {
+    width: 99%;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    border-radius: 2px;
+    resize: none;
+  }
+
+	.name-forms {
+		display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    .name-label {
+      float: left;
+    }
+
+    .fist-name-form {
+			width: 48%;
+		}
+		.last-name-form {
+			width: 48%;
+		}
+  }
+
+  .email {
+		width: 50%;
+		border: 1px solid #ccc;
+		background: #fafafa;
+		height: 40px;
+		border-radius: 2px;
+  }
+
+  .phone {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .submit-btn {
+    color: #eee;
+		background-color: #000;
+		border: none;
+		height: 60px;
+		width: 260px;
+		cursor: pointer;
+		margin: 70px 0 70px 0;
+
+		&:hover {
+			opacity: .8;
+		}
+  }
+}

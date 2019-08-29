@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
+import './Logo.scss';
 
 class Logo extends Component {
 	render () {
-		console.log(this.props.image);
 		return (
 			<div>
-				<img
-					src={this.props.image}
-					// src={require(`../../assets/images/${this.props.image.toLowerCase()}`)}
-					className="logo-img"
-					alt="hello"
-					// alt={this.props.altText}
-				/>
+				<a href={this.props.link} target="_blank" rel="noopener noreferrer">
+					<img src={this.props.image} className="logo-img" alt="hello" />
+				</a>
 			</div>
 		);
 	}
