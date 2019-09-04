@@ -67,22 +67,8 @@
   }
 }
 
-@media screen and (max-width: 760px) {
-  .align-arrows .arrowNext {
-    right: 200px;
-  }
-
-  .align-arrows .arrowBack {
-    left: 200px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .align-arrows .arrowNext {
-    right: 50px;
-  }
-
-  .align-arrows .arrowBack {
-    left: 50px;
+@media screen and (max-width: 415px) {
+  .slider {
+    width: 375px;
   }
 }
