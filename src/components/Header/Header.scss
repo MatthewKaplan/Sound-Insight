@@ -341,7 +341,8 @@ a {
 
 @media screen and (max-width: 415px) {
 	header {
-		visibility: hidden;
+		// visibility: hidden;
+		display: none;
 	}
 
 	.sidebar-navigation {
