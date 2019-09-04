@@ -19,6 +19,15 @@
   color: white;
 }
 
+p {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 1.6em;
+  color: #1f1f1f;
+}
+
 .App-link {
   color: #61dafb;
 }

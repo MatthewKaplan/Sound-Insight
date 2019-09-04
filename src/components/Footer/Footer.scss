@@ -5,13 +5,14 @@
 
 	.footer-info {
 		display: flex;
+		justify-content: center;
 	}
 
 	.mapouter {
 		position: relative;
 		text-align: right;
 		height: 350px;
-		width: 650px;
+		width: 550px;
 		margin: 0 auto;
 		padding-top: 100px;
 	}
@@ -19,7 +20,7 @@
 		overflow: hidden;
 		background: none !important;
 		height: 350px;
-		width: 650px;
+		width: 550px;
 	}
 
 	.store-info {
@@ -27,6 +28,15 @@
 		padding-top: 100px;
 		color: white;
 		font-family: "PT Sans", sans-serif;
+		margin-right: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.store-information {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	a {
@@ -44,11 +54,20 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
+	.footer-component .store-information .store-hours {
+		margin-bottom: 80px;
+	}
+
 	.footer-component .store-information .store-address {
 		border-right: 1px solid white;
 	}
 
 	.footer-component .store-info {
+		width: 100%;
+		padding-top: 0;
+		margin: 0 auto;
+	}
+	.footer-component .store-info .store-contact-info {
 		width: 100%;
 		padding-top: 0;
 	}
