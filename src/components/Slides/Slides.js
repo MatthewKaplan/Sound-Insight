@@ -90,7 +90,6 @@ class Slides extends Component {
 const Slide = ({ image }) => {
 	const styles = {
 		backgroundImage: `url(${image})`,
-		// backgroundSize: '500px 300px',
 		backgroundSize: 'contain',
 		backgroundRepeat: 'no-repeat',
 		backgroundPosition: '50% 60%'

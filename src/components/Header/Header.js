@@ -51,11 +51,11 @@ class Header extends Component {
 										PRODUCTS
 									</NavLink>
 								</li>
-								<li>
+								{/*<li>
 									<NavLink to="/gallery" activeClassName="active" className="link">
 										GALLERY
 									</NavLink>
-								</li>
+								</li>*/}
 								<li>
 									<NavLink to="/about" activeClassName="active" className="link">
 										ABOUT
@@ -105,11 +105,11 @@ class Header extends Component {
 										PRODUCTS
 									</NavLink>
 								</li>
-								<li>
+								{/*<li>
 									<NavLink to="/gallery" activeClassName="active" className="link" onClick={() => this.toggleSidebar()}>
 										GALLERY
 									</NavLink>
-								</li>
+								</li>*/}
 								<li>
 									<NavLink to="/about" activeClassName="active" className="link" onClick={() => this.toggleSidebar()}>
 										ABOUT
