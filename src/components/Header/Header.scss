@@ -254,14 +254,14 @@ a {
 		left: 88%;
 		transform: translate(-50%, -50%);
 		width: 80px;
-		height: 65px;
+		height: 64px;
 		cursor: pointer;
 		background: #201a16;
 	}
 
 	.hamburger {
 		width: 50px;
-		height: 6px;
+		height: 5px;
 		background: #fff;
 		position: absolute;
 		top: 50%;
@@ -276,17 +276,17 @@ a {
 		content: '';
 		position: absolute;
 		width: 50px;
-		height: 6px;
+		height: 5px;
 		background: #fff;
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 		transition: .5s;
 	}
 
 	.hamburger:before {
-		top: -16px;
+		top: -15px;
 	}
 	.hamburger:after {
-		top: 16px;
+		top: 15px;
 	}
 
 	.iconActive .hamburger {
@@ -306,8 +306,8 @@ a {
 }
 
 .contact-menu {
-  height: 70px;
-  width: 100%;
+	height: 70px;
+	width: 100%;
 	position: fixed;
 	bottom: 0;
 	background: #201a16;
@@ -319,8 +319,10 @@ a {
 		justify-content: space-around;
 
 		.contact-icon {
-			height: 40px;
-			width: 40px;
+			height: 35px;
+			width: 35px;
+			margin: 0 auto;
+			padding-top: 5px;
 		}
 	}
 
@@ -341,7 +343,6 @@ a {
 
 @media screen and (max-width: 415px) {
 	header {
-		// visibility: hidden;
 		display: none;
 	}
 

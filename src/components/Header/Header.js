@@ -5,7 +5,7 @@ import MapPopUp from '../MapPopUp/MapPopUp';
 import './Header.scss';
 
 class Header extends Component {
-	state = { sidebarActive: false, hoursPopUp: false, mapPopUp: false };
+	state = { sidebarActive: false, hoursPopUp: false, mapPopUp: false, popUp: false };
 
 	toggleSidebar = () => {
 		this.setState({
@@ -15,18 +15,20 @@ class Header extends Component {
 
 	toggleHours = () => {
 		this.setState({
-			hoursPopUp: !this.state.hoursPopUp
+			hoursPopUp: !this.state.hoursPopUp,
+			popUp: !this.state.popUp
 		});
 	};
 
 	toggleMap = () => {
 		this.setState({
-			mapPopUp: !this.state.mapPopUp
+			mapPopUp: !this.state.mapPopUp,
+			popUp: !this.state.popUp
 		});
 	};
 
 	render () {
-		const { sidebarActive, hoursPopUp, mapPopUp } = this.state;
+		const { sidebarActive, hoursPopUp, mapPopUp, popUp } = this.state;
 		return (
 			<React.Fragment>
 				<header>
@@ -130,30 +132,32 @@ class Header extends Component {
 				</div>
 				{hoursPopUp && <HoursPopUp closeHours={this.toggleHours} />}
 				{mapPopUp && <MapPopUp closeMap={this.toggleMap} />}
-				<div className="contact-menu">
-					<section className="contact-menu-options">
-						<div className="email">
-							<a href="mailto:sales@sound-insight.com" className="menu-option">
-								<img src="https://i.imgur.com/SUphJ4h.png" alt="" className="contact-icon" />
-								<span>EMAIL</span>
-							</a>
-						</div>
-						<div className="phone">
-							<a target="_blank" href="tel:6312714434" rel="noopener noreferrer" className="menu-option">
-								<img src="https://i.imgur.com/eAxtt3I.png" alt="" className="contact-icon" />
-								<span>CALL</span>
-							</a>
-						</div>
-						<div className="map menu-option" onClick={() => this.toggleMap()}>
-							<img src="https://i.imgur.com/oj6o3TY.png" alt="" className="contact-icon" />
-							<span>MAP</span>
-						</div>
-						<div className="hours menu-option" onClick={() => this.toggleHours()}>
-							<img src="https://i.imgur.com/rx2GiBJ.png" alt="" className="contact-icon" />
-							<span>HOURS</span>
-						</div>
-					</section>
-				</div>
+				{popUp === false && (
+					<div className="contact-menu">
+						<section className="contact-menu-options">
+							<div className="email">
+								<a href="mailto:sales@sound-insight.com" className="menu-option">
+									<img src="https://i.imgur.com/SUphJ4h.png" alt="" className="contact-icon" />
+									<span>EMAIL</span>
+								</a>
+							</div>
+							<div className="phone">
+								<a target="_blank" href="tel:6312714434" rel="noopener noreferrer" className="menu-option">
+									<img src="https://i.imgur.com/eAxtt3I.png" alt="" className="contact-icon" />
+									<span>CALL</span>
+								</a>
+							</div>
+							<div className="map menu-option" onClick={() => this.toggleMap()}>
+								<img src="https://i.imgur.com/oj6o3TY.png" alt="" className="contact-icon" />
+								<span>MAP</span>
+							</div>
+							<div className="hours menu-option" onClick={() => this.toggleHours()}>
+								<img src="https://i.imgur.com/rx2GiBJ.png" alt="" className="contact-icon" />
+								<span>HOURS</span>
+							</div>
+						</section>
+					</div>
+				)}
 			</React.Fragment>
 		);
 	}
