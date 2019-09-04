@@ -21,7 +21,7 @@ class PhonePage extends Component {
 					</section>
 					<section className="security-systems">
 						<img src="https://i.imgur.com/C3v3osV.jpg" alt="honeywell security" className="honeywell-img" />
-						<h2>PHONE SYSTEMS</h2>
+						<h2>NEC SYSTEMS</h2>
 						<p>
 							NEC has been a Information and Communications Technology (ICT) leader in operation for 120 years, NEC is
 							committed to bringing together and integrating its technology and expertise to create the ICT-enabled

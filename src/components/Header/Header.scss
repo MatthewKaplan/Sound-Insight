@@ -280,6 +280,39 @@ a {
 	}
 }
 
+.contact-menu {
+  height: 70px;
+  width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #201a16;
+	visibility: hidden;
+
+	.contact-menu-options {
+		display: flex;
+		justify-content: space-around;
+
+		.contact-icon {
+			height: 40px;
+			width: 40px;
+		}
+	}
+
+	.menu-option {
+		display: flex;
+		flex-direction: column;
+		color: white;
+	}
+
+	span {
+		margin-top: 5px;
+	}
+
+	img {
+		margin-top: 7px;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	header {
 		visibility: hidden;
@@ -287,5 +320,21 @@ a {
 
 	.sidebar-navigation {
 		visibility: visible;
+	}
+
+	.contact-menu {
+		visibility: visible;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.sidebar-navigation .icon {
+		left: 83%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.sidebar-navigation .icon {
+		left: 78%;
 	}
 }

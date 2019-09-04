@@ -17,3 +17,10 @@
     width: 145px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .logo-container .logo-img {
+    position: relative;
+    width: 125px;
+  }
+}
