@@ -36,7 +36,7 @@ class AudioPage extends Component {
 					</section>
 					<div className="bottom-services">
 						<section className="analog">
-							<img src="https://i.imgur.com/UKaKg4Z.jpg?1" alt="Analog system" className="analog-img" />
+							<img src="https://i.imgur.com/IT9NKLY.jpg" alt="Analog system" className="analog-img" />
 							<h2>ANALOG</h2>
 							<p>
 								The word "Analog" oftentimes refers to the style of source component being used (i.e.. a turntable or
