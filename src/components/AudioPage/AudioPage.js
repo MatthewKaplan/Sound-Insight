@@ -31,7 +31,7 @@ class AudioPage extends Component {
 							From stand alone systems to fully integrated audio systems, there are no limitations as to what we can
 							provide. The capabilities of modern audio equipment are truly remarkable and we can easily design systems
 							that would bring you into a state of "being there". And, with modern technologies there is no need to
-							sacrifice lifestyle to achieve superb performance wether the system is Analog, Digital, or both.
+							sacrifice lifestyle to achieve superb performance whether the system is Analog, Digital, or both.
 						</p>
 					</section>
 					<div className="bottom-services">

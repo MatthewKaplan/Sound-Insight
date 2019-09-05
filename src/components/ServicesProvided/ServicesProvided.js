@@ -42,7 +42,7 @@ class ServicesProvided extends Component {
 					<div className="video service">
 						<NavLink to="/video">
 							<img src={require('../../assets/images/hometheater.jpg')} alt="Speakers" className="service-img" />
-							<h3>HOME CINIMA</h3>
+							<h3>HOME CINEMA</h3>
 						</NavLink>
 						<p>
 							Sound Insight can plan, design, and install a custom and dedicated home-cinema solution tailored to your
