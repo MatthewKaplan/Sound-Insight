@@ -1,14 +1,53 @@
 import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom';
 import './Footer.scss';
 
 class Footer extends Component {
 	render () {
 		return (
 			<div className="footer-component">
+				<ul className="footer-nav-options">
+					<li>
+						<NavLink exact to="/audio" activeClassName="active" className="link">
+							AUDIO
+						</NavLink>
+					</li>
+					<img src="https://i.imgur.com/o6AzO0S.png" alt="circle" className="dot" />
+					<li>
+						<NavLink to="/video" activeClassName="active" className="link">
+							VIDEO
+						</NavLink>
+					</li>
+					<img src="https://i.imgur.com/o6AzO0S.png" alt="circle" className="dot" />
+					<li>
+						<NavLink to="/automation" activeClassName="active" className="link">
+							AUTOMATION
+						</NavLink>
+					</li>
+					<img src="https://i.imgur.com/o6AzO0S.png" alt="circle" className="dot" />
+					<li>
+						<NavLink to="/phone-systems" activeClassName="active" className="link">
+							PHONES
+						</NavLink>
+					</li>
+					<img src="https://i.imgur.com/o6AzO0S.png" alt="circle" className="dot" />
+					<li>
+						<NavLink to="/security" activeClassName="active" className="link">
+							SECURITY
+						</NavLink>
+					</li>
+					<img src="https://i.imgur.com/o6AzO0S.png" alt="circle" className="dot" />
+					<li>
+						<NavLink to="/careers" activeClassName="active" className="link">
+							CAREERS
+						</NavLink>
+					</li>
+				</ul>
 				<div className="footer-info">
 					<div className="mapouter">
 						<div className="gmap_canvas">
 							<iframe
+								title="Google map"
 								width="550"
 								height="350"
 								id="gmap_canvas"
