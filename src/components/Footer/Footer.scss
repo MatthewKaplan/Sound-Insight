@@ -3,9 +3,27 @@
 	min-height: 500px;
 	font-family: "PT Sans", sans-serif;
 
+	.footer-nav-options {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		padding-top: 50px;
+		font-size: 20px;
+
+		a {
+			font-size: 20px;
+		}
+	}
+
 	.footer-info {
 		display: flex;
 		justify-content: center;
+	}
+
+	.dot {
+		height: 10px;
+		width: 10px;
+		margin: 6px 20px 0 20px;
 	}
 
 	.mapouter {
@@ -14,7 +32,7 @@
 		height: 350px;
 		width: 550px;
 		margin: 0 auto;
-		padding-top: 100px;
+		padding: 50px 0;
 	}
 	.gmap_canvas {
 		overflow: hidden;
@@ -25,7 +43,7 @@
 
 	.store-info {
 		width: 35%;
-		padding-top: 100px;
+		padding-top: 25px;
 		color: white;
 		font-family: "PT Sans", sans-serif;
 		margin-right: 100px;
@@ -46,7 +64,8 @@
 }
 
 @media screen and (max-width: 415px) {
-	.footer-component .mapouter {
+	.footer-component .mapouter,
+	.footer-component .footer-nav-options {
 		display: none;
 	}
 
