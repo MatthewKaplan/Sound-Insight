@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './MainServices.scss';
 import { NavLink } from 'react-router-dom';
-import SplashPage from '../SplashPage/SplashPage';
 
 class MainServices extends Component {
 	render () {
@@ -79,6 +78,7 @@ class MainServices extends Component {
 						<img src="https://i.imgur.com/p3UDEkt.jpg" alt="inside store" className="store1" />
 					</div>
 					<img src="https://i.imgur.com/RWhoCBA.jpg" alt="inside store" className="store3" />
+					<img src="https://i.imgur.com/ZystdQI.jpg" alt="inside store" className="store4" />
 				</section>
 			</div>
 		);

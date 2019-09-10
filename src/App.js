@@ -14,6 +14,7 @@ import AboutPage from './components/AboutPage/AboutPage';
 import ContactPage from './components/ContactPage/ContactPage';
 import GalleryPage from './components/GalleryPage/GalleryPage';
 import PhonePage from './components/PhonePage/PhonePage';
+import CareersPage from './components/CareersPage/CareersPage';
 
 function App (){
 	return (
@@ -31,6 +32,7 @@ function App (){
 				<Route path="/contact" component={ContactPage} />
 				<Route path="/gallery" component={GalleryPage} />
 				<Route path="/phone-systems" component={PhonePage} />
+				<Route path="/careers" component={CareersPage} />
 			</Switch>
 			<Footer />
 		</div>
