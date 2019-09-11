@@ -40,18 +40,20 @@
 }
 
 @media screen and (max-width: 415px) {
-	.products-page .brands {
-		margin: -215px 0 60px 0;
-	}
+	.products-page {
+		.brands {
+			margin: -215px 0 60px 0;
 
-	.products-page .brands .brand-heading {
-		max-width: 95%;
-	}
+			.brand-heading {
+				max-width: 95%;
+			}
 
-	.products-page .brands .logo-container {
-		max-width: 100%;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 5px;
-		grid-row-gap: 75px;
+			.logo-container {
+				max-width: 100%;
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 5px;
+				grid-row-gap: 75px;
+			}
+		}
 	}
 }

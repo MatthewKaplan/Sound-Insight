@@ -92,34 +92,36 @@
 }
 
 @media screen and (max-width: 415px) {
-	.video-page .header {
-		display: none;
-	}
-
-	.video-page .video-info {
-		max-width: 90%;
-	}
-
-	.video-page .page-heading h1 {
-		margin-top: 120px;
-	}
-
-	.video-page .bottom-services {
-		flex-direction: column;
-	}
-
-	.video-page .bottom-services .television-systems {
-		max-width: 100%;
-		h2 {
-			margin-top: 30px;
+	.video-page {
+		.header {
+			display: none;
 		}
-	}
 
-	.video-page .bottom-services .projection-systems {
-		max-width: 100%;
-		margin-top: 60px;
-		h2 {
-			margin-top: 30px;
+		.video-info {
+			max-width: 90%;
+		}
+
+		.page-heading h1 {
+			margin-top: 120px;
+		}
+
+		.bottom-services {
+			flex-direction: column;
+
+			.television-systems {
+				max-width: 100%;
+				h2 {
+					margin-top: 30px;
+				}
+			}
+
+			.projection-systems {
+				max-width: 100%;
+				margin-top: 60px;
+				h2 {
+					margin-top: 30px;
+				}
+			}
 		}
 	}
 }

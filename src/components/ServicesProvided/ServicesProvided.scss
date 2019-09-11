@@ -9,7 +9,7 @@
 		font-size: 17px;
 		letter-spacing: 0.5px;
 		line-height: 1.6em;
-    color: #1f1f1f;
+		color: #1f1f1f;
 	}
 
 	.header {
@@ -82,8 +82,7 @@
 		}
 		.service-img {
 			height: 400px;
-      // width: 540px;
-      width: 83%;
+			width: 83%;
 		}
 	}
 }
@@ -91,51 +90,51 @@
 @media screen and (max-width: 415px) {
 	.services-provided {
 		margin: -265px 0 20px 0;
-	}
 
-	.services-provided .header {
-		width: 95%;
-	}
+		.header {
+			width: 95%;
 
-	.services-provided .header .title {
-		font-size: 32px;
-	}
+			.title {
+				font-size: 32px;
+			}
 
-	.services-provided .header .subtitle {
-		font-size: 22px;
-	}
+			.subtitle {
+				font-size: 22px;
+			}
+		}
 
-	.services-provided .top-service {
-		margin-bottom: 80px;
-	}
+		.top-service {
+			margin-bottom: 80px;
 
-	.services-provided .top-service .top-service-img {
-		height: 350px;
-	}
+			.top-service-img {
+				height: 350px;
+			}
 
-	.services-provided .top-service .audio-service {
-		max-width: 90%;
-	}
+			.audio-service {
+				max-width: 90%;
+			}
+		}
 
-	.services-provided .services-info {
-		display: flex;
-		flex-direction: column;
-		width: 90%;
-		margin: 0 auto;
-	}
+		.services-info {
+			display: flex;
+			flex-direction: column;
+			width: 90%;
+			margin: 0 auto;
 
-	.services-provided .services-info h3,
-	.services-provided .services-info p {
-		width: 100%;
-	}
+			h3,
+			p {
+				width: 100%;
+			}
 
-	.services-provided .services-info .service-img {
-		height: 350px;
-		width: 100%;
-	}
+			.service-img {
+				height: 350px;
+				width: 100%;
+			}
 
-	.services-provided .services-info .automation,
-	.services-provided .services-info .video {
-		margin-top: 0px;
+			.automation,
+			.video {
+				margin-top: 0px;
+			}
+		}
 	}
 }

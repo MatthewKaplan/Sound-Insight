@@ -68,10 +68,13 @@
 }
 
 @media screen and (max-width: 415px) {
-	.splash-page .splash-desc p {
-		font-size: 18px
-	}
-	.splash-page .splash-desc strong {
-		font-size: 36px
+	.splash-page .splash-desc {
+		p {
+			font-size: 18px;
+		}
+
+		strong {
+			font-size: 36px;
+		}
 	}
 }
