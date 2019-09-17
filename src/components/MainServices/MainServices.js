@@ -8,8 +8,10 @@ class MainServices extends Component {
 			<div className="main-services">
 				<h1>QUALITY, INTEGRITY, EXCELLENCE</h1>
 				<p className="mission">
-					Sound Insight starts with quality, taking to heart the needs of the customer first. We have built a reputation
-					on being the very best on Long Island.
+					Sound Insight starts with quality, taking to heart the needs of the customer first.
+				</p>
+				<p className="mission">
+					We have built a reputation on being the very best on Long Island.
 				</p>
 				<p className="service-desc contact-info">
 					Call us at{' '}
@@ -31,7 +33,8 @@ class MainServices extends Component {
 				<div className="services-wrapper">
 					<section className="service">
 						<NavLink to="/audio">
-							<img src={require('../../assets/images/audio.jpeg')} alt="Speakers" className="service-img" />
+							{/*<img src={require('../../assets/images/audio.jpeg')} alt="Speakers" className="service-img" />*/}
+							<img src='https://i.imgur.com/iZ7e76p.jpg?1' alt="Speakers" className="service-img" />
 							<h3>AUDIO</h3>
 						</NavLink>
 						<p className="service-desc">The best in both Analog and Digital Home Audio Systems</p>
@@ -74,10 +77,10 @@ class MainServices extends Component {
 						dedicated Stereo and Home Cinema rooms, with an assortment of the newest technologies.
 					</p>
 					<div className="top-images">
-						<img src="https://i.imgur.com/HJ6gi3W.jpg" alt="inside store" className="store2" />
+						<img src="https://i.imgur.com/9CUZNiH.jpg" alt="inside store" className="store2" />
 						<img src="https://i.imgur.com/p3UDEkt.jpg" alt="inside store" className="store1" />
 					</div>
-					<img src="https://i.imgur.com/RWhoCBA.jpg" alt="inside store" className="store3" />
+					<img src="https://i.imgur.com/LwDrhsN.jpg" alt="inside store" className="store3" />
 					<img src="https://i.imgur.com/ZystdQI.jpg" alt="inside store" className="store4" />
 				</section>
 			</div>
