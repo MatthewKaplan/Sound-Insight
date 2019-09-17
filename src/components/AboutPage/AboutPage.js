@@ -20,7 +20,7 @@ class AboutPage extends Component {
 							Sound Insight today, remains as dedicated as ever to presenting its clients with quality audio electronics
 							that provide the most accurate audio reproduction available for their music enjoyment and listening
 							pleasure. The manufacturers, whose products we carry, share this passion with us. Whether you wish to spin
-							vinyl records or play digital music media, it sounds better on Sound Insight carefully selected products
+							vinyl records or play digital music media, it sounds better on Sound Insight's carefully selected products
 							and custom designed audio systems.
 						</p>
 					</section>
