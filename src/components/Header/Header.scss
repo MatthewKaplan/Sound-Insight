@@ -366,3 +366,9 @@ a {
 		left: 78%;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.sidebar-navigation .icon {
+		left: 68%;
+	}
+}
