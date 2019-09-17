@@ -102,7 +102,7 @@ const links = [
 
 const manufacturers = [
 	{
-		logo: 'https://i.imgur.com/qRN3BKR.jpg',
+		logo: 'https://i.imgur.com/qRN3BKR.jpg?1',
 		link: 'https://www.anthemav.com/index.php'
 	},
 	{
@@ -214,6 +214,10 @@ const manufacturers = [
 		link: 'https://www.necam.com/Phones/'
 	},
 	{
+		logo: 'https://i.imgur.com/efdO6a0.png',
+		link: 'https://www.nilesaudio.com/'
+	},
+	{
 		logo: 'https://i.imgur.com/spsrcH7.jpg',
 		link: 'https://www.legrand.us/nuvo.aspx'
 	},
@@ -246,6 +250,10 @@ const manufacturers = [
 		link: 'https://www.revelspeakers.com/'
 	},
 	{
+		logo: 'https://i.imgur.com/Lf9ctIV.png',
+		link: 'https://mseaudio.com/rockustics'
+	},
+	{
 		logo: 'https://i.imgur.com/kNpTYHJ.png',
 		link: 'https://www.salamanderdesigns.com/'
 	},
@@ -262,6 +270,14 @@ const manufacturers = [
 		link: 'https://www.screeninnovations.com/'
 	},
 	{
+		logo: 'https://i.imgur.com/IXDUwsa.png',
+		link: 'https://skyvue.com/'
+	},
+	{
+		logo: 'https://i.imgur.com/S82f4L7.png',
+		link: 'https://www.snapav.com/shop/en/snapav/home'
+	},
+	{
 		logo: 'https://i.imgur.com/AmUn93y.jpg',
 		link: 'https://www.sonos.com/en-us/home'
 	},
@@ -276,6 +292,14 @@ const manufacturers = [
 	{
 		logo: 'https://i.imgur.com/GX0XJ2y.png',
 		link: 'https://www.stealthacoustics.com/'
+	},
+	{
+		logo: 'https://i.imgur.com/2mOMFT0.jpg',
+		link: 'https://www.straightwire.com/interconnects.php'
+	},
+	{
+		logo: 'https://i.imgur.com/qBUh7GA.jpg',
+		link: 'https://www.sunbritetv.com/'
 	},
 	{
 		logo: 'https://i.imgur.com/nCEoLrI.jpg',
