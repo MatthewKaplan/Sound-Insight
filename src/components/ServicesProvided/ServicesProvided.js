@@ -8,13 +8,15 @@ class ServicesProvided extends Component {
 			<div className="services-provided">
 				<section className="header">
 					<h1 className="title">Our goal is the same today as it was the first day we opened...</h1>
-					<h2 className="subtitle">Provide our customers with the best Audio, Video, and Customer Experience.</h2>
+					{/*<h2 className="subtitle">Provide our customers with the best Audio, Video, and Customer Experience.</h2>*/}
+					<h2 className="subtitle">Provide our customers with the best Customer Experience.</h2>
 				</section>
 				<hr className="page-break" />
 				<section className="top-service">
 					<div className="audio-service">
 						<NavLink to="/audio">
-							<img src={require('../../assets/images/homeaudio2.jpg')} alt="Speakers" className="top-service-img" />
+							{/*<img src={require('../../assets/images/homeaudio2.jpg')} alt="Speakers" className="top-service-img" />*/}
+							<img src='https://i.imgur.com/cmpdsr2.jpg' alt="Speakers" className="top-service-img" />
 							<h3>HOME AUDIO</h3>
 						</NavLink>
 						<p>
@@ -41,7 +43,8 @@ class ServicesProvided extends Component {
 					</div>
 					<div className="video service">
 						<NavLink to="/video">
-							<img src={require('../../assets/images/hometheater.jpg')} alt="Speakers" className="service-img" />
+							{/*<img src={require('../../assets/images/hometheater.jpg')} alt="Speakers" className="service-img" />*/}
+							<img src='https://i.imgur.com/ljubwIP.jpg' alt="Speakers" className="service-img" />
 							<h3>HOME CINEMA</h3>
 						</NavLink>
 						<p>
@@ -75,7 +78,7 @@ class ServicesProvided extends Component {
 							<h3>SECURITY</h3>
 						</NavLink>
 						<p>
-							Sound Insight offers a turnkey solution for video surveillance and security system installation. We can
+							Sound Insight offers turnkey solutions for video surveillance and security system installation. We can
 							offer you peace of mind that your business or residence is protected 24 hours a day. Security Camera and
 							Video Surveillance Systems, also referred to as CCTV systems, DVR security, or IP cameras can be a great
 							tool to protect your company or commercial properties from theft, damaging lawsuits, employee misconduct,
