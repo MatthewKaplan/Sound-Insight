@@ -25,7 +25,7 @@ class AudioPage extends Component {
 						</p>
 					</section>
 					<section className="home-audio">
-						<img src="https://i.imgur.com/USdqlCQ.jpg" alt="Living room" className="home-audio-img" />
+						<img src="https://i.imgur.com/ZlIxnk8.jpg" alt="Living room" className="home-audio-img" />
 						<h2>HOME AUDIO</h2>
 						<p>
 							From stand alone systems to fully integrated audio systems, there are no limitations as to what we can
@@ -36,7 +36,7 @@ class AudioPage extends Component {
 					</section>
 					<div className="bottom-services">
 						<section className="analog">
-							<img src="https://i.imgur.com/IT9NKLY.jpg" alt="Analog system" className="analog-img" />
+							<img src="https://i.imgur.com/tU7mVaP.jpg?1" alt="Analog system" className="analog-img" />
 							<h2>ANALOG</h2>
 							<p>
 								The word "Analog" oftentimes refers to the style of source component being used (i.e.. a turntable or
@@ -51,7 +51,7 @@ class AudioPage extends Component {
 							</p>
 						</section>
 						<section className="digital">
-							<img src="https://i.imgur.com/y0AAGPv.jpg" alt="digital system" />
+							<img src="https://i.imgur.com/8gfWJQ6.jpg" alt="digital system" />
 							<h2>DIGITAL</h2>
 							<p>
 								Now that digital media is almost as established as your record collection, the audio industry has been
