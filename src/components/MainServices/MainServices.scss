@@ -162,6 +162,46 @@
 	}
 }
 
+@media screen and (max-width: 2560px) {
+
+	.main-services {
+    margin: -185px 0 60px 0;
+	}
+
+	.main-services .store3, .main-services .store4 {
+		height: 1050px;
+	}
+
+	.main-services .top-images .store1,
+	.main-services .top-images .store2 {
+		height: 700px;
+	}
+
+	.main-services .store-image,
+	.main-services .store-image .store-front-img {
+		height: 650px;
+	}
+
+	.main-services .store-image .splash-desc {
+		bottom: 900px;
+	}
+
+	.main-services .services-wrapper .service-img {
+    height: 400px;
+		width: 475px;
+	}
+
+	.main-services .services-wrapper .service-desc {
+		margin: 0 115px 0 115px;
+	}
+}
+
+@media screen and (max-width: 1150px) {}
+
+@media screen and (max-width: 1150px) {}
+
+
+
 @media screen and (max-width: 1150px) {
 	.main-services {
 		margin: -220px 0 60px 0;

@@ -41,6 +41,24 @@
 	}
 }
 
+@media screen and (max-width: 2560px) {
+	.about-page .about-section {
+		margin-bottom: 200px;
+	}
+
+	.about-page .about-img {
+    height: 350px;
+	}
+
+	p {
+		font-size: 28px;
+	}
+
+	.about-page .about-info {
+    margin: -99px auto 60px auto;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.about-page {
 		.about-info {

@@ -43,7 +43,7 @@
 	}
 
 	.audio-service {
-		max-width: 80%;
+		max-width: 82.4%;
 		margin: 80px auto 0 auto;
 		text-align: left;
 	}
@@ -88,6 +88,20 @@
 			width: 83%;
 			box-shadow: 2px 4px 14px 0 rgba(0, 0, 0, 0.19);
 		}
+	}
+}
+
+@media screen and (max-width: 2560px) {
+	.services-provided {
+    margin: -205px 0 60px 0;
+	}
+
+	.services-provided .top-service-img {
+		height: 1100px;
+	}
+
+	.services-provided .services-info .service-img {
+		height: 650px;
 	}
 }
 

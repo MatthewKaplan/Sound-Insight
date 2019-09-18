@@ -67,6 +67,20 @@
 	}
 }
 
+@media screen and (max-width: 2560px) {
+	.splash-page .color-overlay {
+    height: 1000px;
+	}
+
+	.splash-page .splash-img {
+    height: 1000px;
+	}
+
+	.splash-page .splash-desc {
+    bottom: 650px;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.splash-page .splash-desc {
 		p {
