@@ -45,6 +45,12 @@
 	}
 }
 
+@media screen and (max-width: 1920px) {
+	.products-page .brands {
+    margin: -236px 0 60px 0;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.products-page {
 		.brands {

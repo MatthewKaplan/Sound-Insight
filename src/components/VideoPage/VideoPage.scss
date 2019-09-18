@@ -103,6 +103,16 @@
 	}
 }
 
+@media screen and (max-width: 1920px) {
+	.video-page .home-theater {
+		height: 900px;
+	}
+
+	.video-page .bottom-services img {
+		height: 450px;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.video-page {
 		.header {

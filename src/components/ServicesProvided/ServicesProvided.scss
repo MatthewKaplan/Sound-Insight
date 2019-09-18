@@ -105,6 +105,20 @@
 	}
 }
 
+@media screen and (max-width: 1920px) {
+	.services-provided {
+    margin: -285px 0 60px 0;
+	}
+
+	.services-provided .top-service-img {
+    height: 900px;
+	}
+
+	.services-provided .services-info .service-img {
+    height: 500px;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.services-provided {
 		margin: -265px 0 20px 0;

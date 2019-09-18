@@ -72,7 +72,17 @@
 
 	.security-page .security-info .bottom-services img {
     height: 550px;
+	}
 }
+
+@media screen and (max-width: 1920px) {
+	.security-page .security-info .honeywell-img {
+		height: 900px;
+	}
+
+	.security-page .security-info .bottom-services img {
+    height: 425px;
+	}
 }
 
 @media screen and (max-width: 415px) {

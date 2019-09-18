@@ -75,6 +75,16 @@
 	}
 }
 
+@media screen and (max-width: 1920px) {
+	.phone-page .security-info .honeywell-img {
+			height: 900px;
+	}
+
+	.phone-page .security-info .bottom-services img {
+		height: 500px;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.phone-page .header {
 		display: none;

@@ -163,7 +163,6 @@
 }
 
 @media screen and (max-width: 2560px) {
-
 	.main-services {
     margin: -185px 0 60px 0;
 	}
@@ -196,7 +195,28 @@
 	}
 }
 
-@media screen and (max-width: 1150px) {}
+@media screen and (max-width: 1920px) {
+	.main-services {
+    margin: -280px 0 60px 0;
+	}
+
+	.main-services .services-wrapper .service-img {
+    height: 375px;
+    width: 425px;
+	}
+
+	.main-services .store3, .main-services .store4 {
+    height: 950px;
+	}
+
+	.main-services .top-images .store1, .main-services .top-images .store2 {
+    height: 600px;
+	}
+
+	.main-services .services-wrapper .service-desc {
+    margin: 0 60px 0 60px;
+	}
+}
 
 @media screen and (max-width: 1150px) {}
 

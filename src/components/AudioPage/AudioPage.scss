@@ -107,6 +107,16 @@
 	}
 }
 
+@media screen and (max-width: 1920px) {
+	.audio-page .audio-info .home-audio-img {
+    height: 900px;
+	}
+
+	.audio-page .audio-info .bottom-services img {
+    height: 450px;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.audio-page .header {
 		display: none;

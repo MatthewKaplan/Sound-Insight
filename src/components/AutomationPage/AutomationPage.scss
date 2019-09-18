@@ -76,6 +76,16 @@
 	}
 }
 
+@media screen and (max-width: 1920px) {
+	.automation-page .automation-info .automation-img {
+    height: 750px;
+	}
+
+	.automation-page .automation-info .bottom-services img {
+		height: 350px;
+	}
+}
+
 @media screen and (max-width: 415px) {
 	.automation-page .header {
 		display: none;
