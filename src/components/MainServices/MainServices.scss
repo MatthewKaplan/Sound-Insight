@@ -218,7 +218,24 @@
 	}
 }
 
-@media screen and (max-width: 1150px) {}
+@media screen and (max-width: 1440px) {
+	.main-services .services-wrapper .service-img {
+    height: 320px;
+    width: 320px;
+	}
+
+	.main-services .services-wrapper .service-desc {
+    margin: 0 40px 0 40px;
+	}
+
+	.main-services .top-images .store1, .main-services .top-images .store2 {
+    height: 500px;
+	}
+
+	.main-services .store3, .main-services .store4 {
+    height: 700px;
+}
+}
 
 
 
