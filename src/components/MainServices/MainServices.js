@@ -97,14 +97,14 @@ class MainServices extends Component {
             Cinema rooms, with an assortment of the newest technologies.
           </p>
           <div className="top-images">
-            <Fade left duration={2000}>
+            <Fade left duration={1500}>
               <img
                 src="https://i.imgur.com/9CUZNiH.jpg"
                 alt="inside store"
                 className="store2"
               />
             </Fade>
-            <Fade right duration={2000}>
+            <Fade right duration={1500}>
               <img
                 src="https://i.imgur.com/p3UDEkt.jpg"
                 alt="inside store"
@@ -112,14 +112,14 @@ class MainServices extends Component {
               />
             </Fade>
           </div>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={1500}>
             <img
               src="https://i.imgur.com/LwDrhsN.jpg"
               alt="inside store"
               className="store3"
             />
           </Fade>
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={1500}>
             <img
               src="https://i.imgur.com/ZystdQI.jpg"
               alt="inside store"

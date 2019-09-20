@@ -132,7 +132,24 @@
 }
 
 @media screen and (max-width: 320px) {
-	.security-page .security-info .page-heading h1 {
-		margin-top: 100px;
+	.security-page .security-info {
+		.page-heading p {
+			margin-bottom: 50px;
+		}
+		.honeywell-img {
+			height: 250px;
+		}
+		.page-heading h1 {
+			margin: 100px 0 30px 0;
+		}
+		.bottom-services {
+			margin: 50px 0;
+			.smart-devices {
+				margin-top: 50px;
+			}
+			img {
+				height: 250px;
+			}
+		}
 	}
 }

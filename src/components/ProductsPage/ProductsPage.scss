@@ -69,3 +69,22 @@
 		}
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.products-page {
+		.brands {
+			margin: -215px 0 60px 0;
+
+			.brand-heading {
+				max-width: 95%;
+			}
+
+			.logo-container {
+				max-width: 100%;
+				grid-template-columns: 1fr 1fr;
+				grid-gap: 0px;
+				grid-row-gap: 75px;
+			}
+		}
+	}
+}

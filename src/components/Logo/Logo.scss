@@ -24,3 +24,9 @@
     width: 125px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .logo-container .logo-img {
+    width: 105px;
+  }
+}

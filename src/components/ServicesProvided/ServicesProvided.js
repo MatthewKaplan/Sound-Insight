@@ -17,7 +17,7 @@ class ServicesProvided extends Component {
         </section>
         <hr className="page-break" />
         <section className="top-service">
-          <Fade bottom duration={2000}>
+          <Fade bottom duration={1500}>
             <div className="audio-service">
               <NavLink to="/audio">
                 <img
@@ -39,7 +39,7 @@ class ServicesProvided extends Component {
           </Fade>
         </section>
         <section className="services-info">
-          <Fade left duration={2000}>
+          <Fade left duration={1500}>
             <div className="automation service">
               <NavLink to="/automation">
                 <img
@@ -61,7 +61,7 @@ class ServicesProvided extends Component {
               </p>
             </div>
           </Fade>
-          <Fade right duration={2000}>
+          <Fade right duration={1500}>
             <div className="video service">
               <NavLink to="/video">
                 <img
@@ -83,7 +83,7 @@ class ServicesProvided extends Component {
               </p>
             </div>
           </Fade>
-          <Fade left duration={2000}>
+          <Fade left duration={1500}>
             <div className="phone service">
               <NavLink to="/phone-systems">
                 <img
@@ -104,7 +104,7 @@ class ServicesProvided extends Component {
               </p>
             </div>
           </Fade>
-          <Fade right duration={2000}>
+          <Fade right duration={1500}>
             <div className="security service">
               <NavLink to="/security">
                 <img
