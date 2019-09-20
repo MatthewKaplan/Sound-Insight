@@ -13,7 +13,7 @@
 	.map {
 		display: flex;
 		justify-content: center;
-		margin-top: 20px; 
+		margin-top: 20px;
 	}
 
 	.mapouter {
@@ -30,14 +30,32 @@
 	}
 
 	.close-popup {
-    height: 50px;
-    width: 50px;
+		height: 50px;
+		width: 50px;
 		position: absolute;
 		right: 0;
 		top: 5px;
 		z-index: 999;
-    margin: 20px 20px 0 0;
+		margin: 20px 20px 0 0;
 		cursor: pointer;
-		background-color: #AADAFF;
-  }
+		background-color: #aadaff;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.map-popup .close-popup {
+		margin: 20px 40px 0 0;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.map-popup .close-popup {
+		margin: 20px 23px 0 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.map-popup .close-popup {
+		margin: 27px 7px 0 0;
+	}
 }
