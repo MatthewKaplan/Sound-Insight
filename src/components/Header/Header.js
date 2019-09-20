@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { connect } from "react-redux";
+import { sideBarActive } from '../../Actions/index';
 import HoursPopUp from '../HoursPopUp/HoursPopUp';
 import MapPopUp from '../MapPopUp/MapPopUp';
 import './Header.scss';
@@ -29,6 +31,7 @@ class Header extends Component {
 
 	render () {
 		const { sidebarActive, hoursPopUp, mapPopUp, popUp } = this.state;
+		console.log(this.props.isActive)
 		return (
 			<React.Fragment>
 				<header>
@@ -163,4 +166,15 @@ class Header extends Component {
 	}
 }
 
-export default Header;
+export const mapStateToProps = state => ({
+  isActive: state.isActive
+});
+
+export const mapDispatchToProps = dispatch => ({
+	sideBarActive: isActive => dispatch(sideBarActive(isActive))
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Header);
