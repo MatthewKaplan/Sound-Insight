@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -16,9 +17,12 @@ import GalleryPage from './components/GalleryPage/GalleryPage';
 import PhonePage from './components/PhonePage/PhonePage';
 import CareersPage from './components/CareersPage/CareersPage';
 
-function App (){
+var noScroll = require('no-scroll');
+
+function App (props){
 	return (
 		<div className="App">
+			{props.isActive || props.popUp ? noScroll.on() : noScroll.off()}
 			<Header />
 			<Switch>
 				<Route path="/" exact component={Home} />
@@ -39,4 +43,9 @@ function App (){
 	);
 }
 
-export default App;
+export const mapStateToProps = state => ({
+	isActive: state.isActive,
+	popUp: state.popUp
+});
+
+export default connect(mapStateToProps)(App);
