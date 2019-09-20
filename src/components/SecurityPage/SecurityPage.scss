@@ -95,13 +95,17 @@
 	}
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 438px) {
 	.security-page .header {
 		display: none;
 	}
 
 	.security-page .security-info {
 		max-width: 90%;
+
+		.honeywell-img {
+    	height: 350px;
+		}
 
 		.page-heading h1 {
 			margin-top: 120px;

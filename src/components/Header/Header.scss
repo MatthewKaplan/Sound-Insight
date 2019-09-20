@@ -341,13 +341,26 @@ a {
 	}
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 438px) {
 	header {
 		display: none;
 	}
 
 	.sidebar-navigation {
 		visibility: visible;
+
+		.icon {
+			left: 86%;
+		}
+	}
+
+	.sidebar-navigation .sidebar {
+		left: 438px;
+		width: 280px;
+	}
+
+	.sidebar-navigation .sidebarActive {
+    left: 160px;
 	}
 
 	.contact-menu {

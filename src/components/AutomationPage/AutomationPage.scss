@@ -96,13 +96,17 @@
 	}
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 438px) {
 	.automation-page .header {
 		display: none;
 	}
 
 	.automation-page .automation-info {
 		max-width: 90%;
+
+		.automation-img {
+    	height: 300px;
+		}
 
 		.page-heading h1 {
 			margin-top: 120px;
