@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { sideBarActive, popUpActive } from '../../Actions/index';
 import HoursPopUp from '../HoursPopUp/HoursPopUp';
 import MapPopUp from '../MapPopUp/MapPopUp';
 import './Header.scss';
@@ -8,15 +10,22 @@ class Header extends Component {
 	state = { sidebarActive: false, hoursPopUp: false, mapPopUp: false, popUp: false };
 
 	toggleSidebar = () => {
-		this.setState({
-			sidebarActive: !this.state.sidebarActive
-		});
+		this.setState(
+			{
+				sidebarActive: !this.state.sidebarActive
+			},
+			() => {
+				this.state.sidebarActive ? this.props.sideBarActive(true) : this.props.sideBarActive(false);
+			}
+		);
 	};
 
 	toggleHours = () => {
 		this.setState({
 			hoursPopUp: !this.state.hoursPopUp,
 			popUp: !this.state.popUp
+		}, () => {
+			this.state.popUp ? this.props.popUpActive(true) : this.props.popUpActive(false)
 		});
 	};
 
@@ -24,6 +33,8 @@ class Header extends Component {
 		this.setState({
 			mapPopUp: !this.state.mapPopUp,
 			popUp: !this.state.popUp
+		}, () => {
+			this.state.popUp ? this.props.popUpActive(true) : this.props.popUpActive(false)
 		});
 	};
 
@@ -163,4 +174,14 @@ class Header extends Component {
 	}
 }
 
-export default Header;
+export const mapStateToProps = state => ({
+	isActive: state.isActive,
+	popUp: state.popUp
+});
+
+export const mapDispatchToProps = dispatch => ({
+	sideBarActive: isActive => dispatch(sideBarActive(isActive)),
+	popUpActive: popUp => dispatch(popUpActive(popUp))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
