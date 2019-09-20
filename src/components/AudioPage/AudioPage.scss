@@ -127,13 +127,17 @@
 	}
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 438px) {
 	.audio-page .header {
 		display: none;
 	}
 
 	.audio-page .audio-info {
 		max-width: 90%;
+
+		.home-audio-img {
+    	height: 350px;
+		}
 
 		.page-heading h1 {
 			margin-top: 120px;

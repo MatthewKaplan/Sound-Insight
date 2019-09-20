@@ -113,10 +113,14 @@
 	}
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 438px) {
 	.video-page {
 		.header {
 			display: none;
+		}
+
+		.home-theater {
+    	height: 350px;
 		}
 
 		.video-info {
