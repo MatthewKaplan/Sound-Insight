@@ -376,12 +376,15 @@ a {
 
 @media screen and (max-width: 375px) {
 	.sidebar-navigation .icon {
-		left: 78%;
+		left: 73%;
 	}
 }
 
 @media screen and (max-width: 320px) {
 	.sidebar-navigation .icon {
 		left: 68%;
+	}
+	.sidebar-navigation .hamburger {
+		left: 23%;
 	}
 }

@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 1920px) {
 	.automation-page .automation-info .automation-img {
-    height: 750px;
+		height: 750px;
 	}
 
 	.automation-page .automation-info .bottom-services img {
@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 1440px) {
 	.automation-page .automation-info .automation-img {
-    height: 600px;
+		height: 600px;
 	}
 
 	.automation-page .automation-info .bottom-services img {
@@ -105,7 +105,7 @@
 		max-width: 90%;
 
 		.automation-img {
-    	height: 300px;
+			height: 300px;
 		}
 
 		.page-heading h1 {
@@ -126,6 +126,36 @@
 				margin-top: 80px;
 				h2 {
 					margin-top: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 438px) {
+	.automation-page {
+		p {
+			font-size: 15px;
+		}
+		.automation-info {
+			.automation-img {
+				height: 250px;
+			}
+			.page-heading {
+				p {
+					margin-bottom: 50px;
+				}
+				h1 {
+					margin: 100px 0 30px 0;
+				}
+			}
+			.bottom-services {
+				margin-top: 50px;
+				.elan {
+					margin-top: 50px;
+				}
+				img {
+					height: 250px;
 				}
 			}
 		}

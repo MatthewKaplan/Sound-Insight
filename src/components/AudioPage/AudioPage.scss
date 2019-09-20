@@ -109,21 +109,21 @@
 
 @media screen and (max-width: 1920px) {
 	.audio-page .audio-info .home-audio-img {
-    height: 900px;
+		height: 900px;
 	}
 
 	.audio-page .audio-info .bottom-services img {
-    height: 450px;
+		height: 450px;
 	}
 }
 
 @media screen and (max-width: 1440px) {
 	.audio-page .audio-info .home-audio-img {
-			height: 650px;
+		height: 650px;
 	}
 
 	.audio-page .audio-info .bottom-services img {
-    height: 350px;
+		height: 350px;
 	}
 }
 
@@ -136,7 +136,7 @@
 		max-width: 90%;
 
 		.home-audio-img {
-    	height: 350px;
+			height: 350px;
 		}
 
 		.page-heading h1 {
@@ -157,6 +157,36 @@
 				margin-top: 80px;
 				h2 {
 					margin-top: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.audio-page {
+		p {
+			font-size: 15px;
+		}
+		.audio-info {
+			.page-heading {
+				margin: 100px 0 30px 0;
+				p {
+					font-size: 15px;
+					margin-bottom: 60px;
+				}
+			} 
+			.home-audio-img {
+				height: 250px;
+			}
+
+			.bottom-services {
+				margin: 50px 0;
+				.digital {
+					margin-top: 50px;
+				}
+				img {
+					height: 250px;
 				}
 			}
 		}
