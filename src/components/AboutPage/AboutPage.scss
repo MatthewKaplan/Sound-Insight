@@ -42,40 +42,46 @@
 }
 
 @media screen and (max-width: 2560px) {
-	.about-page .about-section {
-		margin-bottom: 200px;
-	}
+	.about-page {
+		.about-section {
+			margin-bottom: 200px;
+		}
 
-	.about-page .about-img {
-    height: 350px;
-	}
+		.about-img {
+			height: 350px;
+		}
 
-	.about-page p {
-		font-size: 28px;
-	}
+		p {
+			font-size: 28px;
+		}
 
-	.about-page .about-info {
-    margin: -99px auto 60px auto;
+		.about-info {
+			margin: -99px auto 60px auto;
+		}
 	}
 }
 
 @media screen and (max-width: 1920px) {
-	.about-page p {
-		font-size: 24px;
-	}
+	.about-page {
+		p {
+			font-size: 24px;
+		}
 
-	.about-page .about-info {
-    margin: -150px auto 60px auto;
+		.about-info {
+			margin: -150px auto 60px auto;
+		}
 	}
 }
 
 @media screen and (max-width: 1440px) {
-	.about-page p {
-		font-size: 20px;
-	}
+	.about-page {
+		p {
+			font-size: 20px;
+		}
 
-	.about-page .about-info {
-    margin: -133px auto 60px auto;
+		.about-info {
+			margin: -133px auto 60px auto;
+		}
 	}
 }
 

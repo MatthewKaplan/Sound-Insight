@@ -94,22 +94,26 @@
 }
 
 @media screen and (max-width: 2560px) {
-	.video-page .home-theater {
-		height: 1100px;
-	}
+	.video-page {
+		.home-theater {
+			height: 1100px;
+		}
 
-	.video-page .bottom-services img {
-		height: 550px;
+		.bottom-services img {
+			height: 550px;
+		}
 	}
 }
 
 @media screen and (max-width: 1920px) {
-	.video-page .home-theater {
-		height: 900px;
-	}
+	.video-page {
+		.home-theater {
+			height: 900px;
+		}
 
-	.video-page .bottom-services img {
-		height: 450px;
+		.bottom-services img {
+			height: 450px;
+		}
 	}
 }
 

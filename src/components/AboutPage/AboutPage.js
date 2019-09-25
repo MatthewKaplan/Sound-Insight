@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import SplashPage from '../SplashPage/SplashPage';
-import './AboutPage.scss';
 
 class AboutPage extends Component {
 	componentDidMount () {

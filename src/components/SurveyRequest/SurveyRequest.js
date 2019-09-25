@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
-import './SurveyRequest.scss';
 
 class SurveyRequest extends Component {
 	state = { phone: '', firstName: '', lastName: '', email: '', jobDetail: '', dateRequested: '' };

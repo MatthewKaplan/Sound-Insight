@@ -1,0 +1,39 @@
+@import './variables';
+@import '../App.scss';
+@import '../components/AboutPage/AboutPage.scss';
+@import '../components/ApplicationForm/ApplicationForm.scss';
+@import '../components/AutomationPage/AutomationPage.scss';
+@import '../components/CareersPage/CareersPage.scss';
+@import '../components/ContactForm/ContactForm.scss';
+@import '../components/ContactPage/ContactPage.scss';
+@import '../components/DemoRequest/DemoRequest.scss';
+@import '../components/Footer/Footer.scss';
+@import '../components/GalleryPage/GalleryPage.scss';
+@import '../components/Header/Header.scss';
+@import '../components/Home/Home.scss';
+@import '../components/HoursPopUp/HoursPopUp.scss';
+@import '../components/Logo/Logo.scss';
+@import '../components/MainServices/MainServices.scss';
+@import '../components/MapPopUp/MapPopUp.scss';
+@import '../components/PhonePage/PhonePage.scss';
+@import '../components/ProductsPage/ProductsPage.scss';
+@import '../components/SecurityPage/SecurityPage.scss';
+@import '../components/ServicesProvided/ServicesProvided.scss';
+@import '../components/Slides/Slides.scss';
+@import '../components/SplashPage/SplashPage.scss';
+@import '../components/SurveyRequest/SurveyRequest.scss';
+@import '../components/VideoPage/VideoPage.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

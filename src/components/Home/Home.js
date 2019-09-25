@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import SplashPage from '../SplashPage/SplashPage';
 import MainServices from '../MainServices/MainServices';
-import './Home.scss';
 
 class Home extends Component {
 	componentDidMount () {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './ProductsPage.scss';
 import SplashPage from '../SplashPage/SplashPage';
 import Logo from '../Logo/Logo';
 import { manufacturers } from '../../assets/helper';
@@ -11,7 +10,7 @@ class ProductsPage extends Component {
 	
 	renderLogos = () => {
 		return manufacturers.map(manufacturer => {
-			return <Logo image={manufacturer.logo} link={manufacturer.link} />;
+			return <Logo image={manufacturer.logo} link={manufacturer.link} altText={manufacturer.alt_text} />;
 		});
 	};
 
@@ -19,7 +18,7 @@ class ProductsPage extends Component {
 		return (
 			<div className="products-page">
 				<SplashPage
-					image="store.jpeg"
+					image="store.jpg"
 					altText="Living room"
 					subtitle="We carry top of the line brands guarenteed to excite the senses."
 					title="PRODUCTS"

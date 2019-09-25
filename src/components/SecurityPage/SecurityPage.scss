@@ -66,65 +66,73 @@
 }
 
 @media screen and (max-width: 2560px) {
-	.security-page .security-info .honeywell-img {
-		height: 1050px;
-	}
+	.security-page .security-info {
+		.honeywell-img {
+			height: 1050px;
+		}
 
-	.security-page .security-info .bottom-services img {
-		height: 550px;
+		.bottom-services img {
+			height: 550px;
+		}
 	}
 }
 
 @media screen and (max-width: 1920px) {
-	.security-page .security-info .honeywell-img {
-		height: 900px;
-	}
+	.security-page .security-info {
+		.honeywell-img {
+			height: 900px;
+		}
 
-	.security-page .security-info .bottom-services img {
-		height: 425px;
+		.bottom-services img {
+			height: 425px;
+		}
 	}
 }
 
 @media screen and (max-width: 1440px) {
-	.security-page .security-info .honeywell-img {
-		height: 600px;
-	}
+	.security-page .security-info {
+		.honeywell-img {
+			height: 600px;
+		}
 
-	.security-page .security-info .bottom-services img {
-		height: 350px;
+		.bottom-services img {
+			height: 350px;
+		}
 	}
 }
 
 @media screen and (max-width: 438px) {
-	.security-page .header {
-		display: none;
-	}
-
-	.security-page .security-info {
-		max-width: 90%;
-
-		.honeywell-img {
-			height: 350px;
+	.security-page {
+		.header {
+			display: none;
 		}
 
-		.page-heading h1 {
-			margin-top: 120px;
-		}
+		.security-info {
+			max-width: 90%;
 
-		.bottom-services {
-			flex-direction: column;
-
-			.smart-devices {
-				max-width: 100%;
-				margin-top: 80px;
-				h2 {
-					margin-top: 30px;
-				}
+			.honeywell-img {
+				height: 350px;
 			}
-			.camera-systems {
-				max-width: 100%;
-				h2 {
-					margin-top: 30px;
+
+			.page-heading h1 {
+				margin-top: 120px;
+			}
+
+			.bottom-services {
+				flex-direction: column;
+
+				.smart-devices {
+					max-width: 100%;
+					margin-top: 80px;
+					h2 {
+						margin-top: 30px;
+					}
+				}
+				.camera-systems {
+					max-width: 100%;
+					h2 {
+						margin-top: 30px;
+					}
 				}
 			}
 		}

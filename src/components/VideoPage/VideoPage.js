@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './VideoPage.scss';
 import Slides from '../Slides/Slides';
 import { videoImages, videoDetails, videoLinks } from '../../assets/helper';
 

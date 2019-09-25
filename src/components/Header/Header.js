@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 import { sideBarActive, popUpActive } from '../../Actions/index';
 import HoursPopUp from '../HoursPopUp/HoursPopUp';
 import MapPopUp from '../MapPopUp/MapPopUp';
-import './Header.scss';
 
 class Header extends Component {
 	state = { sidebarActive: false, hoursPopUp: false, mapPopUp: false, popUp: false };

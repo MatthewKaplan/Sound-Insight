@@ -94,38 +94,40 @@
 @media screen and (max-width: 2560px) {
 	.services-provided {
 		margin: -205px 0 60px 0;
-	}
 
-	.services-provided .top-service-img {
-		height: 1100px;
-	}
+		.top-service-img {
+			height: 1100px;
+		}
 
-	.services-provided .services-info .service-img {
-		height: 650px;
+		.services-info .service-img {
+			height: 650px;
+		}
 	}
 }
 
 @media screen and (max-width: 1920px) {
 	.services-provided {
 		margin: -285px 0 60px 0;
-	}
 
-	.services-provided .top-service-img {
-		height: 900px;
-	}
+		.top-service-img {
+			height: 900px;
+		}
 
-	.services-provided .services-info .service-img {
-		height: 500px;
+		.services-info .service-img {
+			height: 500px;
+		}
 	}
 }
 
 @media screen and (max-width: 1440px) {
-	.services-provided .top-service-img {
-		height: 600px;
-	}
+	.services-provided {
+		.top-service-img {
+			height: 600px;
+		}
 
-	.services-provided .services-info .service-img {
-		height: 425px;
+		.services-info .service-img {
+			height: 425px;
+		}
 	}
 }
 

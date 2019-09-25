@@ -68,71 +68,79 @@
 }
 
 @media screen and (max-width: 2560px) {
-	.splash-page .color-overlay {
-    height: 1000px;
-	}
+	.splash-page {
+		.color-overlay {
+			height: 1000px;
+		}
 
-	.splash-page .splash-img {
-    height: 1000px;
-	}
+		.splash-img {
+			height: 1000px;
+		}
 
-	.splash-page .splash-desc {
-    bottom: 650px;
+		.splash-desc {
+			bottom: 650px;
+		}
 	}
 }
 
 @media screen and (max-width: 1440px) {
-	.splash-page .color-overlay {
-    height: 800px;
-	}
+	.splash-page {
+		.color-overlay {
+			height: 800px;
+		}
 
-	.splash-page .splash-img {
-    height: 800px;
-	}
+		.splash-img {
+			height: 800px;
+		}
 
-	.splash-page .splash-desc {
-    bottom: 525px;
+		.splash-desc {
+			bottom: 525px;
+		}
 	}
 }
 
 @media screen and (max-width: 438px) {
-	.splash-page .color-overlay {
-    height: 600px;
-	}
-
-	.splash-page .splash-img {
-    height: 600px;
-	}
-
-	.splash-page .splash-desc {
-		bottom: 425px;
-		p {
-			font-size: 18px;
+	.splash-page {
+		.color-overlay {
+			height: 600px;
 		}
 
-		strong {
-			font-size: 36px;
+		.splash-img {
+			height: 600px;
+		}
+
+		.splash-desc {
+			bottom: 425px;
+			p {
+				font-size: 18px;
+			}
+
+			strong {
+				font-size: 36px;
+			}
 		}
 	}
 }
 
 @media screen and (max-width: 320px) {
-	.splash-page .color-overlay {
-    height: 500px;
-	}
-
-	.splash-page .splash-img {
-    height: 500px;
-	}
-
-	.splash-page .splash-desc {
-		bottom: 375px;
-		p {
-			font-size: 16px;
+	.splash-page {
+		.color-overlay {
+			height: 500px;
 		}
 
-		strong {
-			font-size: 34px;
+		.splash-img {
+			height: 500px;
+		}
+
+		.splash-desc {
+			bottom: 375px;
+			p {
+				font-size: 16px;
+			}
+
+			strong {
+				font-size: 34px;
+			}
 		}
 	}
 }

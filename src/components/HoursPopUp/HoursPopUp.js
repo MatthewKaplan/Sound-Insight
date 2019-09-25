@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './HoursPopUp.scss';
 
 class HoursPopUp extends Component {
 	render () {

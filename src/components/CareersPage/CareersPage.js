@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './CareersPage.scss';
 import SplashPage from '../SplashPage/SplashPage';
 import ApplicationForm from '../ApplicationForm/ApplicationForm';
 

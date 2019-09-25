@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './AutomationPage.scss';
 
 class AutomationPage extends Component {
 	componentDidMount () {

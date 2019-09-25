@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { audioDetails, audioImages, audioLinks } from '../../assets/helper';
 import Slides from '../Slides/Slides';
-import './AudioPage.scss';
 
 class AudioPage extends Component {
 	componentDidMount () {

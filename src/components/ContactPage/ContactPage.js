@@ -3,7 +3,6 @@ import SplashPage from '../SplashPage/SplashPage';
 import DemoRequest from '../DemoRequest/DemoRequest';
 import SurveyRequest from '../SurveyRequest/SurveyRequest';
 import ContactForm from '../ContactForm/ContactForm';
-import './ContactPage.scss';
 
 class ContactPage extends Component {
 	state = { demoRequest: false, estimateRequest: false, contactUs: false };
@@ -25,7 +24,7 @@ class ContactPage extends Component {
 
 		return (
 			<div className="contact-page">
-				<SplashPage image="store.jpeg" altText="Sound Insight store front" subtitle="" title="We're here for you!" />
+				<SplashPage image="store.jpg" altText="Sound Insight store front" subtitle="" title="We're here for you!" />
 				<section className="contact-page-contents">
 					<h1>Please let us know how we can help...</h1>
 					<div className="break-line">

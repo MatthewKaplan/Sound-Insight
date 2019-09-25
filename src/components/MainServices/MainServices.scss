@@ -165,80 +165,89 @@
 @media screen and (max-width: 2560px) {
 	.main-services {
 		margin: -185px 0 60px 0;
-	}
 
-	.main-services .store3,
-	.main-services .store4 {
-		height: 1050px;
-	}
+		.store3,
+		.store4 {
+			height: 1050px;
+		}
 
-	.main-services .top-images .store1,
-	.main-services .top-images .store2 {
-		height: 700px;
-	}
+		.top-images .store1,
+		.top-images .store2 {
+			height: 700px;
+		}
 
-	.main-services .store-image,
-	.main-services .store-image .store-front-img {
-		height: 650px;
-	}
+		.store-image {
+			height: 650px;
+			.store-front-img {
+				height: 650px;
+			}
+			.splash-desc {
+				bottom: 900px;
+			}
+		}
 
-	.main-services .store-image .splash-desc {
-		bottom: 900px;
-	}
+		.services-wrapper {
+			.service-img {
+				height: 400px;
+				width: 475px;
+			}
 
-	.main-services .services-wrapper .service-img {
-		height: 400px;
-		width: 475px;
-	}
-
-	.main-services .services-wrapper .service-desc {
-		margin: 0 115px 0 115px;
+			.service-desc {
+				margin: 0 115px 0 115px;
+			}
+		}
 	}
 }
 
 @media screen and (max-width: 1920px) {
 	.main-services {
 		margin: -280px 0 60px 0;
-	}
 
-	.main-services .services-wrapper .service-img {
-		height: 375px;
-		width: 425px;
-	}
+		.services-wrapper {
+			.service-img {
+				height: 375px;
+				width: 425px;
+			}
 
-	.main-services .store3,
-	.main-services .store4 {
-		height: 950px;
-	}
+			.service-desc {
+				margin: 0 60px 0 60px;
+			}
+		}
 
-	.main-services .top-images .store1,
-	.main-services .top-images .store2 {
-		height: 600px;
-	}
+		.store3,
+		.store4 {
+			height: 950px;
+		}
 
-	.main-services .services-wrapper .service-desc {
-		margin: 0 60px 0 60px;
+		.top-images .store1,
+		.top-images .store2 {
+			height: 600px;
+		}
 	}
 }
 
 @media screen and (max-width: 1440px) {
-	.main-services .services-wrapper .service-img {
-		height: 320px;
-		width: 320px;
-	}
+	.main-services {
+		.services-wrapper {
+			.service-img {
+				height: 320px;
+				width: 320px;
+			}
 
-	.main-services .services-wrapper .service-desc {
-		margin: 0 40px 0 40px;
-	}
+			.service-desc {
+				margin: 0 40px 0 40px;
+			}
+		}
 
-	.main-services .top-images .store1,
-	.main-services .top-images .store2 {
-		height: 500px;
-	}
+		.top-images .store1,
+		.top-images .store2 {
+			height: 500px;
+		}
 
-	.main-services .store3,
-	.main-services .store4 {
-		height: 700px;
+		.store3,
+		.store4 {
+			height: 700px;
+		}
 	}
 }
 

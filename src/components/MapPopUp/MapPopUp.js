@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './MapPopUp.scss';
 
 class MapPopUp extends Component {
 	render () {

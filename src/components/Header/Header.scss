@@ -352,15 +352,15 @@ a {
 		.icon {
 			left: 86%;
 		}
-	}
 
-	.sidebar-navigation .sidebar {
-		left: 438px;
-		width: 280px;
-	}
+		.sidebar {
+			left: 438px;
+			width: 280px;
+		}
 
-	.sidebar-navigation .sidebarActive {
-    left: 160px;
+		.sidebarActive {
+			left: 160px;
+		}
 	}
 
 	.contact-menu {
@@ -381,10 +381,12 @@ a {
 }
 
 @media screen and (max-width: 320px) {
-	.sidebar-navigation .icon {
-		left: 68%;
-	}
-	.sidebar-navigation .hamburger {
-		left: 23%;
+	.sidebar-navigation {
+		.icon {
+			left: 68%;
+		}
+		.hamburger {
+			left: 23%;
+		}
 	}
 }
