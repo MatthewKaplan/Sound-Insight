@@ -1,10 +1,16 @@
-# Sound-Insight
 
-I built and designed this website for a custom home theater and audio company that operates out of Huntington, NY. The main issue with their previous site was that it was not mobile friendly and that it hadn't been updated since the early 2000s.
+<img align="right" src="https://i.imgur.com/rXabLPq.png" width="300" />
+<br /><br /><br />
+
+## Overview
+
+I designed and built this website for a custom home theater and audio company that operates out of Huntington, NY. The client wanted a website that was easy for customers to navigate and that was mobile friendly since thats what their previous site was lacking. 
+
+As of this moment I'm waiting on the clients approval to host it via their domain but it is temporally hosted at the following domain: [https://master.d30uxrf9waatbu.amplifyapp.com/](https://master.d30uxrf9waatbu.amplifyapp.com/)
 
 ## Preview:
 
-![Start_Page](https://i.imgur.com/wAMd7bi.png)
+<img src="https://i.imgur.com/hKmgxiK.png" width="900" />
 
 ## Project Tools:
 
