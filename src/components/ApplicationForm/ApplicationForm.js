@@ -24,7 +24,7 @@ class ApplicationForm extends Component {
 						className="close-form"
 						onClick={() => this.props.closeForm()}
 					/>
-					<form action={`https://formspree.io/kaplan.matthew.p@gmail.com`} method="POST">
+					<form action={`https://formspree.io/sales@sound-insight.com`} method="POST">
 						<h1>Application</h1>
 						<h3 className="name-label">Name*</h3>
 						<div className="name-forms">
