@@ -101,276 +101,287 @@ const links = [
 ];
 
 const manufacturers = [
-	{
-		logo: 'https://i.imgur.com/qRN3BKR.jpg?1',
-		link: 'https://www.anthemav.com/index.php',
-		alt_text: 'Anthema logo'
-	},
-	{
-		logo: 'https://i.imgur.com/A6Ady97.png',
-		link: 'https://vutec.com/artscreen/',
-		alt_text: 'Vutec logo'
-	},
-	{
-		logo: 'https://i.imgur.com/CCNoQfh.png?1',
-		link: 'https://www.audio-technica.com/cms/site/b535f9ffd4a85477/index.html',
-		alt_text: 'Audio technica logo'
-	},
-	{
-		logo: 'https://i.imgur.com/HvQA7m0.jpg',
-		link: 'https://www.bdiusa.com/',
-		alt_text: 'BDI logo'
-	},
-	{
-		logo: 'https://i.imgur.com/qju4pDI.jpg',
-		link: 'https://www.bluesound.com/',
-		alt_text: 'Bluesound logo'
-	},
-	{
-		logo: 'https://i.imgur.com/rWmI6Ge.jpg',
-		link: 'https://www.legrandav.com/products/chief',
-		alt_text: 'Chief logo'
-	},
-	{
-		logo: 'https://i.imgur.com/4LAD6cm.jpg',
-		link: 'https://www.control4.com/',
-		alt_text: 'Control 4 logo'
-	},
-	{
-		logo: 'https://i.imgur.com/NF4r7RH.png',
-		link: 'https://www.dali-speakers.com/',
-		alt_text: 'Dali logo'
-	},
-	{
-		logo: 'https://i.imgur.com/4qrOTBI.jpg',
-		link: 'https://www.definitivetechnology.com',
-		alt_text: 'Definitive technology logo'
-	},
-	{
-		logo: 'https://i.imgur.com/KTwhYJQ.png',
-		link: 'https://usa.denon.com/us/product/hifi/turntables',
-		alt_text: 'Denon logo'
-	},
-	{
-		logo: 'https://i.imgur.com/kNRLpvF.jpg',
-		link: 'https://www.digitalprojection.com/',
-		alt_text: 'Digital projection logo'
-	},
-	{
-		logo: 'https://i.imgur.com/c4r3nGZ.png',
-		link: 'https://www.dnp-screens.com/',
-		alt_text: 'Dnp screens logo'
-	},
-	{
-		logo: 'https://i.imgur.com/nKR7VLY.png',
-		link: 'https://www.elanhomesystems.com/',
-		alt_text: 'Elan logo'
-	},
-	{
-		logo: 'https://i.imgur.com/9lOHXnD.png',
-		link: 'https://www.elkproducts.com/',
-		alt_text: 'Elk logo'
-	},
-	{
-		logo: 'https://i.imgur.com/kd3uOZ4.png',
-		link: 'https://epson.com/For-Home/Projectors/h/h3',
-		alt_text: 'Epson logo'
-	},
-	{
-		logo: 'https://i.imgur.com/XOWAmXm.jpg',
-		link: 'https://usa.denon.com/us/heos',
-		alt_text: 'Heos logo'
-	},
-	{
-		logo: 'https://i.imgur.com/ZRz2YNb.jpg',
-		link: 'https://www.honeywellhome.com/en/products/security-alarm-solutions',
-		alt_text: 'Honeywell home logo'
-	},
-	{
-		logo: 'https://i.imgur.com/jiywE0h.jpg',
-		link: 'http://www.integrahometheater.com/',
-		alt_text: 'Integra logo'
-	},
-	{
-		logo: 'https://i.imgur.com/ecOKgUd.png',
-		link: 'https://www.jblpro.com/www/products/installed-sound/control-contractor-series#.XWWteSVMHOS',
-		alt_text: 'JBL logo'
-	},
-	{
-		logo: 'https://i.imgur.com/ThcnhnU.png',
-		link: 'https://www.jblsynthesis.com/home',
-		alt_text: 'JBL Synthesis logo'
-	},
-	{
-		logo: 'https://i.imgur.com/kLExqf2.png',
-		link: 'https://www.us.jvc.com/archive/audio/hometheater/',
-		alt_text: 'JVC logo'
-	},
-	{
-		logo: 'https://i.imgur.com/VNSRUk4.png',
-		link: 'https://us.kef.com/',
-		alt_text: 'Kef logo'
-	},
-	{
-		logo: 'https://i.imgur.com/F0XKDSM.png',
-		link: 'https://www.leonspeakers.com/',
-		alt_text: 'Leon logo'
-	},
-	{
-		logo: 'https://i.imgur.com/LDO7e5n.png',
-		link: 'https://www.lg.com/us/tvs',
-		alt_text: 'LG logo'
-	},
-	{
-		logo: 'https://i.imgur.com/fhfc3bi.jpg',
-		link: 'https://www.us.marantz.com/us/pages/home.aspx',
-		alt_text: 'Marantz logo'
-	},
-	{
-		logo: 'https://i.imgur.com/FWocq1x.jpg',
-		link: 'https://www.middleatlantic.com',
-		alt_text: 'Middle atlantic logo'
-	},
-	{
-		logo: 'https://i.imgur.com/I9P2h4O.jpg',
-		link: 'https://www.monitoraudio.com',
-		alt_text: 'Monitor Audio logo'
-	},
-	{
-		logo: 'https://i.imgur.com/FNSX0nH.png',
-		link: 'https://www.necam.com/Phones/',
-		alt_text: 'Necam logo'
-	},
-	{
-		logo: 'https://i.imgur.com/efdO6a0.png',
-		link: 'https://www.nilesaudio.com/',
-		alt_text: 'Niles audio logo'
-	},
-	{
-		logo: 'https://i.imgur.com/spsrcH7.jpg',
-		link: 'https://www.legrand.us/nuvo.aspx',
-		alt_text: 'Nuvo logo'
-	},
-	{
-		logo: 'https://i.imgur.com/w6P7Rme.jpg',
-		link: 'https://www.omnimount.com/',
-		alt_text: 'Omni logo'
-	},
-	{
-		logo: 'https://i.imgur.com/VTd8MeC.png',
-		link: 'https://originacoustics.com/',
-		alt_text: 'Origin Acoustics logo'
-	},
-	{
-		logo: 'https://i.imgur.com/f58f5oJ.png',
-		link: 'https://www.palliser.com/',
-		alt_text: 'Palliser logo'
-	},
-	{
-		logo: 'https://i.imgur.com/Yl84CmF.png',
-		link: 'https://www.panamax.com/products/rack-mount-and-component-power',
-		alt_text: 'Panamax logo'
-	},
-	{
-		logo: 'https://i.imgur.com/gOY8vNF.png',
-		link: 'https://www.paradigm.com/en/',
-		alt_text: 'Paradigm logo'
-	},
-	{
-		logo: 'https://i.imgur.com/wPmB1rv.jpg',
-		link: 'http://www.parasound.com/',
-		alt_text: 'Parasound logo'
-	},
-	{
-		logo: 'https://i.imgur.com/T34qqcY.png',
-		link: 'https://www.revelspeakers.com/',
-		alt_text: 'Revel logo'
-	},
-	{
-		logo: 'https://i.imgur.com/Lf9ctIV.png',
-		link: 'https://mseaudio.com/rockustics',
-		alt_text: 'mseaudio logo'
-	},
-	{
-		logo: 'https://i.imgur.com/kNpTYHJ.png',
-		link: 'https://www.salamanderdesigns.com/',
-		alt_text: 'Salamander designs logo'
-	},
-	{
-		logo: 'https://i.imgur.com/P3DMYAc.png',
-		link: 'https://www.samsung.com/us/televisions-home-theater/tvs/',
-		alt_text: 'Samsung logo'
-	},
-	{
-		logo: 'https://i.imgur.com/S90SzLc.jpg',
-		link: 'https://www.sanus.com/en_US/',
-		alt_text: 'Sanus logo'
-	},
-	{
-		logo: 'https://i.imgur.com/mmppOGs.png',
-		link: 'https://www.screeninnovations.com/',
-		alt_text: 'Screen innovations logo'
-	},
-	{
-		logo: 'https://i.imgur.com/IXDUwsa.png',
-		link: 'https://skyvue.com/',
-		alt_text: 'Skyvue logo'
-	},
-	{
-		logo: 'https://i.imgur.com/S82f4L7.png',
-		link: 'https://www.snapav.com/shop/en/snapav/home',
-		alt_text: 'Snapav logo'
-	},
-	{
-		logo: 'https://i.imgur.com/AmUn93y.jpg',
-		link: 'https://www.sonos.com/en-us/home',
-		alt_text: 'Sonos logo'
-	},
-	{
-		logo: 'https://i.imgur.com/ZG2yCBS.jpg',
-		link: 'https://www.sony.com/electronics/tv/t/televisions',
-		alt_text: 'Sony logo'
-	},
-	{
-		logo: 'https://i.imgur.com/dRPzw7w.jpg',
-		link: 'https://www.speakercraft.com/',
-		alt_text: 'Speakercraft logo'
-	},
-	{
-		logo: 'https://i.imgur.com/GX0XJ2y.png',
-		link: 'https://www.stealthacoustics.com/',
-		alt_text: 'Stealth acoustics logo'
-	},
-	{
-		logo: 'https://i.imgur.com/2mOMFT0.jpg',
-		link: 'https://www.straightwire.com/interconnects.php',
-		alt_text: 'Straight wire logo'
-	},
-	{
-		logo: 'https://i.imgur.com/qBUh7GA.jpg',
-		link: 'https://www.sunbritetv.com/',
-		alt_text: 'Sunbrite logo'
-	},
-	{
-		logo: 'https://i.imgur.com/nCEoLrI.jpg',
-		link: 'https://www.svsound.com/',
-		alt_text: 'sv sound logo'
-	},
-	{
-		logo: 'https://i.imgur.com/LzrPQXV.jpg',
-		link: 'https://totemacoustic.com/en/',
-		alt_text: 'Totem acoustic logo'
-	},
-	{
-		logo: 'https://i.imgur.com/Cw9jKcX.png',
-		link: 'www.universalremote.com/index.php',
-		alt_text: 'Universal Remote logo'
-	},
-	{
-		logo: 'https://i.imgur.com/KiGnnti.png',
-		link: 'https://vutec.com',
-		alt_text: 'Vutec logo'
-	}
+  {
+    logo: "https://i.imgur.com/qRN3BKR.jpg?1",
+    link: "https://www.anthemav.com/index.php",
+    alt_text: "Anthema logo"
+  },
+  {
+    logo: "https://i.imgur.com/A6Ady97.png",
+    link: "https://vutec.com/artscreen/",
+    alt_text: "Vutec logo"
+  },
+  {
+    logo: "https://i.imgur.com/CCNoQfh.png?1",
+    link: "https://www.audio-technica.com/cms/site/b535f9ffd4a85477/index.html",
+    alt_text: "Audio technica logo"
+  },
+  {
+    logo: "https://i.imgur.com/HvQA7m0.jpg",
+    link: "https://www.bdiusa.com/",
+    alt_text: "BDI logo"
+  },
+  {
+    logo: "https://i.imgur.com/qju4pDI.jpg",
+    link: "https://www.bluesound.com/",
+    alt_text: "Bluesound logo"
+  },
+  {
+    logo: "https://i.imgur.com/rWmI6Ge.jpg",
+    link: "https://www.legrandav.com/products/chief",
+    alt_text: "Chief logo"
+  },
+  {
+    logo: "https://i.imgur.com/4LAD6cm.jpg",
+    link: "https://www.control4.com/",
+    alt_text: "Control 4 logo"
+  },
+  {
+    logo: "https://i.imgur.com/NF4r7RH.png",
+    link: "https://www.dali-speakers.com/",
+    alt_text: "Dali logo"
+  },
+  {
+    logo: "https://i.imgur.com/4qrOTBI.jpg",
+    link: "https://www.definitivetechnology.com",
+    alt_text: "Definitive technology logo"
+  },
+  {
+    logo: "https://i.imgur.com/KTwhYJQ.png",
+    link: "https://usa.denon.com/us/product/hifi/turntables",
+    alt_text: "Denon logo"
+  },
+  {
+    logo: "https://i.imgur.com/kNRLpvF.jpg",
+    link: "https://www.digitalprojection.com/",
+    alt_text: "Digital projection logo"
+  },
+  {
+    logo: "https://i.imgur.com/c4r3nGZ.png",
+    link: "https://www.dnp-screens.com/",
+    alt_text: "Dnp screens logo"
+  },
+  {
+    logo: "https://i.imgur.com/nKR7VLY.png",
+    link: "https://www.elanhomesystems.com/",
+    alt_text: "Elan logo"
+  },
+  {
+    logo: "https://i.imgur.com/9lOHXnD.png",
+    link: "https://www.elkproducts.com/",
+    alt_text: "Elk logo"
+  },
+  {
+    logo: "https://i.imgur.com/kd3uOZ4.png",
+    link: "https://epson.com/For-Home/Projectors/h/h3",
+    alt_text: "Epson logo"
+  },
+  {
+    logo: "https://i.imgur.com/XOWAmXm.jpg",
+    link: "https://usa.denon.com/us/heos",
+    alt_text: "Heos logo"
+  },
+  {
+    logo: "https://i.imgur.com/ZRz2YNb.jpg",
+    link: "https://www.honeywellhome.com/en/products/security-alarm-solutions",
+    alt_text: "Honeywell home logo"
+  },
+  {
+    logo: "https://i.imgur.com/jiywE0h.jpg",
+    link: "http://www.integrahometheater.com/",
+    alt_text: "Integra logo"
+  },
+  {
+    logo: "https://i.imgur.com/ecOKgUd.png",
+    link:
+      "https://www.jblpro.com/www/products/installed-sound/control-contractor-series#.XWWteSVMHOS",
+    alt_text: "JBL logo"
+  },
+  {
+    logo: "https://i.imgur.com/ThcnhnU.png",
+    link: "https://www.jblsynthesis.com/home",
+    alt_text: "JBL Synthesis logo"
+  },
+  {
+    logo: "https://i.imgur.com/kLExqf2.png",
+    link: "https://www.us.jvc.com/archive/audio/hometheater/",
+    alt_text: "JVC logo"
+  },
+  {
+    logo: "https://i.imgur.com/VNSRUk4.png",
+    link: "https://us.kef.com/",
+    alt_text: "Kef logo"
+  },
+  {
+    logo: "https://i.imgur.com/F0XKDSM.png",
+    link: "https://www.leonspeakers.com/",
+    alt_text: "Leon logo"
+  },
+  {
+    logo: "https://i.imgur.com/LDO7e5n.png",
+    link: "https://www.lg.com/us/tvs",
+    alt_text: "LG logo"
+  },
+  {
+    logo: "https://i.imgur.com/fhfc3bi.jpg",
+    link: "https://www.us.marantz.com/us/pages/home.aspx",
+    alt_text: "Marantz logo"
+  },
+  {
+    logo: "https://i.imgur.com/FWocq1x.jpg",
+    link: "https://www.middleatlantic.com",
+    alt_text: "Middle atlantic logo"
+  },
+  {
+    logo: "https://i.imgur.com/I9P2h4O.jpg",
+    link: "https://www.monitoraudio.com",
+    alt_text: "Monitor Audio logo"
+  },
+  {
+    logo: "https://i.imgur.com/FNSX0nH.png",
+    link: "https://www.necam.com/Phones/",
+    alt_text: "Necam logo"
+  },
+  {
+    logo: "https://i.imgur.com/efdO6a0.png",
+    link: "https://www.nilesaudio.com/",
+    alt_text: "Niles audio logo"
+  },
+  {
+    logo: "https://i.imgur.com/spsrcH7.jpg",
+    link: "https://www.legrand.us/nuvo.aspx",
+    alt_text: "Nuvo logo"
+  },
+  {
+    logo: "https://i.imgur.com/w6P7Rme.jpg",
+    link: "https://www.omnimount.com/",
+    alt_text: "Omni logo"
+  },
+  {
+    logo: "https://i.imgur.com/VTd8MeC.png",
+    link: "https://originacoustics.com/",
+    alt_text: "Origin Acoustics logo"
+  },
+  {
+    logo: "https://i.imgur.com/f58f5oJ.png",
+    link: "https://www.palliser.com/",
+    alt_text: "Palliser logo"
+  },
+  {
+    logo: "https://i.imgur.com/Yl84CmF.png",
+    link: "https://www.panamax.com/products/rack-mount-and-component-power",
+    alt_text: "Panamax logo"
+  },
+  {
+    logo: "https://i.imgur.com/gOY8vNF.png",
+    link: "https://www.paradigm.com/en/",
+    alt_text: "Paradigm logo"
+  },
+  {
+    logo: "https://i.imgur.com/wPmB1rv.jpg",
+    link: "http://www.parasound.com/",
+    alt_text: "Parasound logo"
+  },
+  {
+    logo: "https://i.imgur.com/T7yx1Hp.png",
+    link: "https://www.passlabs.com/",
+    alt_text: "Pass Labs"
+  },
+  {
+    logo: "https://i.imgur.com/T34qqcY.png",
+    link: "https://www.revelspeakers.com/",
+    alt_text: "Revel logo"
+  },
+  {
+    logo: "https://i.imgur.com/Lf9ctIV.png",
+    link: "https://mseaudio.com/rockustics",
+    alt_text: "mseaudio logo"
+  },
+  {
+    logo: "https://i.imgur.com/kNpTYHJ.png",
+    link: "https://www.salamanderdesigns.com/",
+    alt_text: "Salamander designs logo"
+  },
+  {
+    logo: "https://i.imgur.com/P3DMYAc.png",
+    link: "https://www.samsung.com/us/televisions-home-theater/tvs/",
+    alt_text: "Samsung logo"
+  },
+  {
+    logo: "https://i.imgur.com/S90SzLc.jpg",
+    link: "https://www.sanus.com/en_US/",
+    alt_text: "Sanus logo"
+  },
+  {
+    logo: "https://i.imgur.com/mmppOGs.png",
+    link: "https://www.screeninnovations.com/",
+    alt_text: "Screen innovations logo"
+  },
+  {
+    logo: "https://i.imgur.com/IXDUwsa.png",
+    link: "https://skyvue.com/",
+    alt_text: "Skyvue logo"
+  },
+  {
+    logo: "https://i.imgur.com/S82f4L7.png",
+    link: "https://www.snapav.com/shop/en/snapav/home",
+    alt_text: "Snapav logo"
+  },
+  {
+    logo: "https://i.imgur.com/AmUn93y.jpg",
+    link: "https://www.sonos.com/en-us/home",
+    alt_text: "Sonos logo"
+  },
+  {
+    logo: "https://i.imgur.com/ZG2yCBS.jpg",
+    link: "https://www.sony.com/electronics/tv/t/televisions",
+    alt_text: "Sony logo"
+  },
+  {
+    logo: "https://i.imgur.com/dRPzw7w.jpg",
+    link: "https://www.speakercraft.com/",
+    alt_text: "Speakercraft logo"
+  },
+  {
+    logo: "https://i.imgur.com/GX0XJ2y.png",
+    link: "https://www.stealthacoustics.com/",
+    alt_text: "Stealth acoustics logo"
+  },
+  {
+    logo: "https://i.imgur.com/2mOMFT0.jpg",
+    link: "https://www.straightwire.com/interconnects.php",
+    alt_text: "Straight wire logo"
+  },
+  {
+    logo: "https://i.imgur.com/qBUh7GA.jpg",
+    link: "https://www.sunbritetv.com/",
+    alt_text: "Sunbrite logo"
+  },
+  {
+    logo: "https://i.imgur.com/nCEoLrI.jpg",
+    link: "https://www.svsound.com/",
+    alt_text: "sv sound logo"
+  },
+  {
+    logo: "https://i.imgur.com/XXFNORM.png",
+    link: "https://www.synergisticresearch.com/",
+    alt_text: "Synergistic Research"
+  },
+  {
+    logo: "https://i.imgur.com/LzrPQXV.jpg",
+    link: "https://totemacoustic.com/en/",
+    alt_text: "Totem acoustic logo"
+  },
+  {
+    logo: "https://i.imgur.com/Cw9jKcX.png",
+    link: "www.universalremote.com/index.php",
+    alt_text: "Universal Remote logo"
+  },
+  {
+    logo: "https://i.imgur.com/KiGnnti.png",
+    link: "https://vutec.com",
+    alt_text: "Vutec logo"
+  }
 ];
 
 const videoImages = [
