@@ -10,7 +10,7 @@ class Home extends Component {
 	render () {
 		return (
 			<div>
-				<SplashPage image="splash-img.jpg" altText="Living room" subtitle="A PASSION FOR AUDIO AND VIDEO - SINCE 2002" title="we design thoughtful, intuitive systems"/>
+				<SplashPage image="splash-img.jpg" altText="Living room" subtitle="A PASSION FOR AUDIO AND VIDEO - SINCE 2002" title="wee design thoughtful, intuitive systems"/>
 				<MainServices />
 			</div>
 		);
