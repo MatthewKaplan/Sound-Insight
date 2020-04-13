@@ -1,16 +1,16 @@
 .covid-popup {
-	position: fixed;
-	width: 60%;
-	height: 80%;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
-	background-color: rgba(0,0,0, 0.5);
+  position: fixed;
+  width: 60%;
+  height: 80%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
   color: white;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 
   h1 {
     margin-top: 60px;
@@ -20,7 +20,7 @@
     color: white;
     padding: 0 65px;
   }
-  
+
   .covid-popup-banner {
     background-image: url("https://i.imgur.com/IJDfj7F.jpg");
     height: 550px;
@@ -37,17 +37,17 @@
     background-size: contain;
   }
 
-	.form-information {
-		background-color: #696969;
-		border: 1px solid black;
-		width: 100%;
-		height: 100%;
-		font-family: "PT Sans", sans-serif;
-		overflow: scroll;
+  .form-information {
+    background-color: #696969;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    font-family: "PT Sans", sans-serif;
+    overflow: scroll;
     z-index: 999;
     max-width: 100%;
-		max-height: 100%;
-		margin-top: 0px;
+    max-height: 100%;
+    margin-top: 0px;
   }
 
   .close-popup {
@@ -65,5 +65,24 @@
     border-collapse: collapse;
     vertical-align: center;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .covid-popup {
+    width: 75%;
+    height: 60%;
+
+    .close-popup {
+      height: 25px;
+      width: 25px;
+    }
+    .covid-popup-banner {
+      height: 200px;
+    }
+
+    p {
+      padding: 0 5px;
+    }
   }
 }
