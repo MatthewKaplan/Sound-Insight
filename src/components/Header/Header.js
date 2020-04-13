@@ -35,7 +35,7 @@ class Header extends Component {
 			covidPopUp: !this.state.covidPopUp,
 			popUp: !this.state.popUp
 		}, () => {
-			this.state.popUp ? this.props.popUpActive(true) : this.props.popUpActive(false)
+			this.state.popUp ? this.props.popUpActive(false) : this.props.popUpActive(true)
 		});
 	};
 
