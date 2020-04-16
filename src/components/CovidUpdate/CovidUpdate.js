@@ -13,7 +13,7 @@ class CovidUpdate extends Component {
           <table>
 						<tr>
 							<td className="date">MON</td>
-							<td className="time">10am - 6pm</td>
+							<td className="time">10am - 5pm</td>
 						</tr>
 
 						<tr>
@@ -30,12 +30,12 @@ class CovidUpdate extends Component {
 						</tr>
 						<tr>
 							<td className="date">FRI</td>
-							<td className="time">10am - 6pm</td>
+							<td className="time">10am - 5pm</td>
 						</tr>
 
 						<tr>
 							<td className="date">SAT</td>
-							<td className="time">10am - 6pm</td>
+							<td className="time">10am - 5pm</td>
 						</tr>
 						<tr>
 							<td className="date">SUN</td>
