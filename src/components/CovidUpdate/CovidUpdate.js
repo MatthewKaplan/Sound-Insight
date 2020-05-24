@@ -18,15 +18,15 @@ class CovidUpdate extends Component {
 
 						<tr>
 							<td className="date">TUE</td>
-							<td className="time">10am - 2pm</td>
+							<td className="time">10am - 5pm</td>
 						</tr>
 						<tr>
 							<td className="date">WED</td>
-							<td className="time">10am - 2pm</td>
+							<td className="time">10am - 5pm</td>
 						</tr>
 						<tr>
 							<td className="date">THU</td>
-							<td className="time">10am - 2pm</td>
+							<td className="time">10am - 5pm</td>
 						</tr>
 						<tr>
 							<td className="date">FRI</td>
