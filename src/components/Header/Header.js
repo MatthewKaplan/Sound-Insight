@@ -4,11 +4,9 @@ import { connect } from 'react-redux';
 import { sideBarActive, popUpActive } from '../../Actions/index';
 import HoursPopUp from '../HoursPopUp/HoursPopUp';
 import MapPopUp from '../MapPopUp/MapPopUp';
-import CovidUpdate from '../CovidUpdate/CovidUpdate';
-
 
 class Header extends Component {
-	state = { sidebarActive: false, hoursPopUp: false, mapPopUp: false, popUp: false, covidPopUp: true };
+	state = { sidebarActive: false, hoursPopUp: false, mapPopUp: false, popUp: false};
 
 	toggleSidebar = () => {
 		this.setState(
@@ -30,15 +28,6 @@ class Header extends Component {
 		});
 	};
 
-	toggleUpdate = () => {
-		this.setState({
-			covidPopUp: !this.state.covidPopUp,
-			popUp: !this.state.popUp
-		}, () => {
-			this.state.popUp ? this.props.popUpActive(false) : this.props.popUpActive(true)
-		});
-	};
-
 	toggleMap = () => {
 		this.setState({
 			mapPopUp: !this.state.mapPopUp,
@@ -49,7 +38,7 @@ class Header extends Component {
 	};
 
 	render () {
-		const { sidebarActive, hoursPopUp, mapPopUp, popUp, covidPopUp } = this.state;
+		const { sidebarActive, hoursPopUp, mapPopUp, popUp } = this.state;
 		return (
 			<React.Fragment>
 				<header>
@@ -151,7 +140,6 @@ class Header extends Component {
 						</section>
 					</div>
 				</div>
-				{covidPopUp && <CovidUpdate  closeUpdate={this.toggleUpdate} />}
 				{hoursPopUp && <HoursPopUp closeHours={this.toggleHours} />}
 				{mapPopUp && <MapPopUp closeMap={this.toggleMap} />}
 				{popUp === false && (
