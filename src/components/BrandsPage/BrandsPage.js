@@ -3,7 +3,7 @@ import SplashPage from '../SplashPage/SplashPage';
 import Logo from '../Logo/Logo';
 import { manufacturers } from '../../assets/helper';
 
-class ProductsPage extends Component {
+class BrandsPage extends Component {
 	componentDidMount () {
 		window.scrollTo(0, 0);
 	}
@@ -16,12 +16,12 @@ class ProductsPage extends Component {
 
 	render () {
 		return (
-			<div className="products-page">
+			<div className="brands-page">
 				<SplashPage
 					image="store.jpg"
 					altText="Living room"
 					subtitle="We carry top of the line brands guarenteed to excite the senses."
-					title="PRODUCTS"
+					title="BRANDS"
 				/>
 				<section className="brands">
 					<div className="brand-heading">
@@ -29,8 +29,8 @@ class ProductsPage extends Component {
 							<strong>Featured Brands</strong>
 						</h2>
 						<h2 className="brand-subtitle">
-							Below is a list of some of our top manufacturers. If you can't find what you've been searching for,{' '}
-							<a href="mailto:sales@sound-insight.com">please contact us.</a>
+							Below is a list of some of our top manufacturers. If you can't find what you've been searching for, please{' '}
+							<a href="mailto:sales@sound-insight.com">contact us</a> and we would be glad to help!
 						</h2>
 					</div>
 					<div className="hr-line">
@@ -43,4 +43,4 @@ class ProductsPage extends Component {
 	}
 }
 
-export default ProductsPage;
+export default BrandsPage;

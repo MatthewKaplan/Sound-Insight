@@ -1,4 +1,4 @@
-.products-page {
+.brands-page {
 	font-family: "PT Sans", sans-serif;
 
 	.brands {
@@ -40,19 +40,19 @@
 }
 
 @media screen and (max-width: 2560px) {
-	.products-page .brands {
+	.brands-page .brands {
 		margin: -170px 0 60px 0;
 	}
 }
 
 @media screen and (max-width: 1920px) {
-	.products-page .brands {
+	.brands-page .brands {
 		margin: -236px 0 60px 0;
 	}
 }
 
 @media screen and (max-width: 438px) {
-	.products-page {
+	.brands-page {
 		.brands {
 			margin: -215px 0 60px 0;
 
@@ -61,7 +61,7 @@
 			}
 
 			.logo-container {
-				max-width: 100%;
+				max-width: 35%;
 				grid-template-columns: 1fr 1fr;
 				grid-gap: 5px;
 				grid-row-gap: 75px;
@@ -71,7 +71,7 @@
 }
 
 @media screen and (max-width: 320px) {
-	.products-page {
+	.brands-page {
 		.brands {
 			margin: -215px 0 60px 0;
 

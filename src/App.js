@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import ServicesPage from './components/ServicesPage/ServicesPage';
 import Footer from './components/Footer/Footer';
 import { Route, Switch } from 'react-router-dom';
-import ProductsPage from './components/ProductsPage/ProductsPage';
+import BrandsPage from './components/BrandsPage/BrandsPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import AudioPage from './components/AudioPage/AudioPage';
 import AutomationPage from './components/AutomationPage/AutomationPage';
@@ -26,7 +26,7 @@ function App (props){
 			<Switch>
 				<Route path="/" exact component={Home} />
 				<Route path="/services" component={ServicesPage} />
-				<Route path="/products" component={ProductsPage} />
+				<Route path="/brands" component={BrandsPage} />
 				<Route path="/video" component={VideoPage} />
 				<Route path="/audio" component={AudioPage} />
 				<Route path="/automation" component={AutomationPage} />
