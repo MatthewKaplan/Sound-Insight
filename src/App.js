@@ -15,6 +15,7 @@ import ContactPage from './components/ContactPage/ContactPage';
 import GalleryPage from './components/GalleryPage/GalleryPage';
 import PhonePage from './components/PhonePage/PhonePage';
 import CareersPage from './components/CareersPage/CareersPage';
+import ProductsPage from './components/ProductsPage/ProductsPage';
 
 var noScroll = require('no-scroll');
 
@@ -36,6 +37,7 @@ function App (props){
 				<Route path="/gallery" component={GalleryPage} />
 				<Route path="/phone-systems" component={PhonePage} />
 				<Route path="/careers" component={CareersPage} />
+				<Route path="/products" component={ProductsPage} />
 			</Switch>
 			<Footer />
 		</div>
