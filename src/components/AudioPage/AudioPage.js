@@ -18,7 +18,7 @@ class AudioPage extends Component {
 				<div className="header" />
 				<div className="audio-info">
 					<section className="page-heading">
-						<h1>Audio Systems</h1>
+						<h1>Home Audio Systems & Surround Sound</h1>
 						<p>
 							Whether you wish to spin vinyl or play digital music media it sounds better on Sound Insight's carefully
 							selected products and custom designed systems. Since our beginning in 2002, traditional two-channel stereo

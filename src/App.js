@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import ServicesPage from './components/ServicesPage/ServicesPage';
 import Footer from './components/Footer/Footer';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import BrandsPage from './components/BrandsPage/BrandsPage';
 import VideoPage from './components/VideoPage/VideoPage';
 import AudioPage from './components/AudioPage/AudioPage';
@@ -25,7 +25,10 @@ function App (props){
 			{props.isActive || props.popUp ? noScroll.on() : noScroll.off()}
 			<Header />
 			<Switch>
-				<Route exact path="/" exact component={Home} />
+				<Route exact path="/" component={Home} />
+				<Route path="/index.html">
+            <Redirect to="/" />
+          </Route>
 				<Route path="/services" component={ServicesPage} />
 				<Route path="/brands" component={BrandsPage} />
 				<Route path="/video" component={VideoPage} />
