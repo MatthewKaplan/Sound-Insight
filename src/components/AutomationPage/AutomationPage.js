@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 class AutomationPage extends Component {
 	componentDidMount () {
@@ -8,6 +9,10 @@ class AutomationPage extends Component {
 	render () {
 		return (
 			<div className="automation-page">
+				<Helmet>
+					<title>Smart Home Automation - Sound Insight</title>
+					<meta name="description" content="Sound Insight Is Your Local High End Provider Of Home Automation Installation - Call Us Today. We Develop & Implement Designs For Custom Homes & Complete Home Automation." />
+				</Helmet>
 				<div className="header" />
 				<div className="automation-info">
 					<section className="page-heading">

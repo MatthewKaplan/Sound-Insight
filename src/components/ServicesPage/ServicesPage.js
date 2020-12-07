@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SplashPage from '../SplashPage/SplashPage';
 import ServicesProvided from '../ServicesProvided/ServicesProvided';
+import { Helmet } from 'react-helmet';
 
 class ServicesPage extends Component {
 	componentDidMount () {
@@ -10,6 +11,10 @@ class ServicesPage extends Component {
 	render () {
 		return (
 			<div>
+				<Helmet>
+					<title>Audio, Video, Home Automation Services  - Sound Insight</title>
+					<meta name="description" content="We provide our clients with a complete range of audio-video solutions, smart home automation, security solutions, phone systems, and IT solutions." />
+				</Helmet>
 				<SplashPage
 					image="services2.jpg"
 					altText="Living room"

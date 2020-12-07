@@ -25,7 +25,7 @@ function App (props){
 			{props.isActive || props.popUp ? noScroll.on() : noScroll.off()}
 			<Header />
 			<Switch>
-				<Route path="/" exact component={Home} />
+				<Route exact path="/" exact component={Home} />
 				<Route path="/services" component={ServicesPage} />
 				<Route path="/brands" component={BrandsPage} />
 				<Route path="/video" component={VideoPage} />

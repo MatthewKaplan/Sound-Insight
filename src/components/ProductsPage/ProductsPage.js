@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SplashPage from '../SplashPage/SplashPage';
+import { Helmet } from 'react-helmet';
 import Slides from '../Slides/Slides';
 import { audioDetails, audioImages, audioLinks, videoImages, videoDetails, videoLinks } from '../../assets/helper';
 
@@ -11,6 +12,10 @@ class ProductsPage extends Component {
 	render () {
 		return (
 			<div className="products-page">
+				<Helmet>
+					<title>Audio & Video Products - Sound Insight</title>
+					<meta name="description" content="We carry the highest quality products for all your audio and video needs. " />
+				</Helmet>
 				<SplashPage
 					image="products-page.jpg"
 					altText="Living room"

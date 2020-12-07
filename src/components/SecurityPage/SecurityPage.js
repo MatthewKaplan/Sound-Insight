@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 class SecurityPage extends Component {
 	componentDidMount () {
@@ -8,6 +9,12 @@ class SecurityPage extends Component {
 	render () {
 		return (
 			<div className="security-page">
+				<Helmet>
+					<title>Security Systems - Sound Insight</title>
+					<meta name="description" content="Whether you are looking for a PTZ or fixed dome camera systems, our professional security installers
+								will help you select the correct surveilance system, identify the most effective configuration of
+								security equipment, and offer you secure and reliable installation." />
+				</Helmet>
 				<div className="header" />
 				<div className="security-info">
 					<section className="page-heading">

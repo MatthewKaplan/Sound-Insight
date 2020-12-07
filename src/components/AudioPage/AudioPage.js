@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 import { audioDetails, audioImages, audioLinks } from '../../assets/helper';
 import Slides from '../Slides/Slides';
 
@@ -10,6 +11,10 @@ class AudioPage extends Component {
 	render () {
 		return (
 			<div className="audio-page">
+				<Helmet>
+					<title>Home Audio Systems & Surround Sound - Sound Insight</title>
+					<meta name="description" content="Discover the many lines we carry for all your home and portable audio system needs. Experience high-quality audio and elegent style at home, or on the go." />
+				</Helmet>
 				<div className="header" />
 				<div className="audio-info">
 					<section className="page-heading">

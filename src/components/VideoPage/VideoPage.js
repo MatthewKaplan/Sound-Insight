@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 import Slides from '../Slides/Slides';
 import { videoImages, videoDetails, videoLinks } from '../../assets/helper';
 
@@ -10,6 +11,10 @@ class VideoPage extends Component {
 	render () {
 		return (
 			<div className="video-page">
+				<Helmet>
+					<title>Custom Home Theaters & Entertainment Systems  - Sound Insight</title>
+					<meta name="description" content="Let us help you design and install the Custom Home Theater of your dreams! We can supply all your audio, video, and seating needs for your custom home theater." />
+				</Helmet>
 				<div className="header" />
 				<section className="video-info">
 					<section className="page-heading">

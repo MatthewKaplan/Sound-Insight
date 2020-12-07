@@ -3,6 +3,7 @@ import SplashPage from '../SplashPage/SplashPage';
 import DemoRequest from '../DemoRequest/DemoRequest';
 import SurveyRequest from '../SurveyRequest/SurveyRequest';
 import ContactForm from '../ContactForm/ContactForm';
+import { Helmet } from 'react-helmet';
 
 class ContactPage extends Component {
 	state = { demoRequest: false, estimateRequest: false, contactUs: false };
@@ -24,6 +25,10 @@ class ContactPage extends Component {
 
 		return (
 			<div className="contact-page">
+				<Helmet>
+					<title>Contact Us - Sound Insight</title>
+					<meta name="description" content="Contact Sound Insight for your next AV design, install or service for your home, business, or entertainment space. FREE ESTIMATES!" />
+				</Helmet>
 				<SplashPage image="store.jpg" altText="Sound Insight store front" subtitle="" title="We're here for you!" />
 				<section className="contact-page-contents">
 					<h1>Please let us know how we can help...</h1>

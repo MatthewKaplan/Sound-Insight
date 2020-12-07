@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 class PhonePage extends Component {
 	componentDidMount () {
@@ -8,6 +9,10 @@ class PhonePage extends Component {
 	render () {
 		return (
 			<div className="phone-page">
+				<Helmet>
+					<title>Office Phone Solutions - Sound Insight</title>
+					<meta name="description" content="With a suite of highly intuitive desktop telephones, in-building wireless systems and softphones, Sound Insight equips the workplace so employees can act quickly." />
+				</Helmet>
 				<div className="header" />
 				<div className="security-info">
 					<section className="page-heading">

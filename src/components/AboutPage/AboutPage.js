@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import SplashPage from '../SplashPage/SplashPage';
+import { Helmet } from 'react-helmet';
 
 class AboutPage extends Component {
 	componentDidMount () {
@@ -9,6 +10,10 @@ class AboutPage extends Component {
 	render () {
 		return (
 			<div className="about-page">
+				<Helmet>
+					<title>About Us - Sound Insight</title>
+					<meta name="description" content="Partnering with the top brands in the audiovisual industry, we provide top residential audio, video, and automation design and installation services. We provide our clients with a complete range of audio-video solutions, smart home automation, network, and IT solutions." />
+				</Helmet>
 				<SplashPage image="store-front.jpg" altText="Sound Insight store front" subtitle="" title="ABOUT" />
 				<div className="about-info">
 					<h1>Sound Insight - New York, Since 2002</h1>

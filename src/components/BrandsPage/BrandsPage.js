@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SplashPage from '../SplashPage/SplashPage';
 import Logo from '../Logo/Logo';
+import { Helmet } from 'react-helmet';
 import { manufacturers } from '../../assets/helper';
 
 class BrandsPage extends Component {
@@ -17,6 +18,10 @@ class BrandsPage extends Component {
 	render () {
 		return (
 			<div className="brands-page">
+				<Helmet>
+					<title>Audio & Video Manufacturers - Sound Insight</title>
+					<meta name="description" content="We only carry top of the line Audio and Video brands guarenteed to excite the senses. Audio-Technica, JBL, Monitor Audio, Sonos, Marantz, Sony, SpeakerCraft, Paradigm, Panamax, Samsung, Heos, etc..." />
+				</Helmet>
 				<SplashPage
 					image="store.jpg"
 					altText="Living room"
